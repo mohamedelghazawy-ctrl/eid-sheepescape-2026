@@ -1,0 +1,8 @@
+{
+  "name": "Remix هروب خروف العيد",
+  "description": "لعبة جري كرتونية مستوحاة من صاب واي في شوارع مصر الشعبية القديمة لخروف العيد الذكي الذي يهرب من الجزار.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
