@@ -18,7 +18,15 @@ jobs:
       - name: Fix Missing Resources
         run: |
           mkdir -p app/src/main/res/values
-          echo '<?xml version="1.0" encoding="utf-8"?><resources><color name="icon_bg">#FFFFFF</color></resources>' > app/src/main/res/values/colors.xml
+          cat << 'EOF' > app/src/main/res/values/colors.xml
+          <?xml version="1.0" encoding="utf-8"?>
+          <resources>
+              <color name="bg">#FFFFFF</color>
+              <color name="icon_bg">#FFFFFF</color>
+              <color name="black">#000000</color>
+              <color name="white">#FFFFFF</color>
+          </resources>
+          EOF
 
       - name: Build Android Project with Gradle
         working-directory: ./app
