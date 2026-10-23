@@ -28,7 +28,7 @@ jobs:
           </resources>
           EOF
 
-      - name: Build Android Project with Gradle
+      - name: Build Android Project Release
         working-directory: ./app
         run: |
           gradle init --type basic --automation-language kotlin-dsl --dsl kotlin-dsl --unsupported --quiet || true
@@ -66,10 +66,10 @@ jobs:
               implementation("androidx.webkit:webkit:1.12.1")
           }
           EOF
-          gradle assembleDebug
+          gradle assembleRelease
 
-      - name: Upload APK
+      - name: Upload Release APK
         uses: actions/upload-artifact@v4
         with:
-          name: app-debug-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
+          name: app-release-apk
+          path: app/build/outputs/apk/release/app-release-unsigned.apk
