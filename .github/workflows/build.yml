@@ -15,17 +15,49 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Create Full Standalone Project Structure
+      - name: Build Android Project with Gradle
+        working-directory: ./app
         run: |
-          # التأكد من وجود إعدادات الجذر الأساسية لتفادي أي نقص
-          echo "include(':app')" > settings.gradle.kts
-          echo "org.gradle.jvmargs=-Xmx2048M" > gradle.properties
-
-      - name: Build APK Cleanly
-        run: ./gradlew assembleDebug
+          gradle init --type basic --automation-language kotlin-dsl --dsl kotlin-dsl --unsupported --quiet || true
+          cat << 'EOF' > build.gradle.kts
+          plugins {
+              id("com.android.application")
+              id("org.jetbrains.kotlin.android")
+          }
+          android {
+              namespace = "com.eid.sheepescape"
+              compileSdk = 36
+              defaultConfig {
+                  applicationId = "com.eid.sheepescape"
+                  minSdk = 26
+                  targetSdk = 36
+                  versionCode = 3
+                  versionName = "1.2"
+              }
+              buildTypes {
+                  release {
+                      isMinifyEnabled = false
+                  }
+              }
+              compileOptions {
+                  sourceCompatibility = JavaVersion.VERSION_17
+                  targetCompatibility = JavaVersion.VERSION_17
+              }
+              kotlinOptions {
+                  jvmTarget = "17"
+              }
+          }
+          dependencies {
+              implementation("androidx.core:core-ktx:1.13.1")
+              implementation("androidx.appcompat:appcompat:1.7.0")
+              implementation("androidx.webkit:webkit:1.12.1")
+          }
+          EOF
+          gradle assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: app-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
+
