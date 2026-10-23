@@ -15,14 +15,14 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Generate Gradle Wrapper
-        run: gradle wrapper --gradle-version 8.7
+      - name: Create Full Standalone Project Structure
+        run: |
+          # التأكد من وجود إعدادات الجذر الأساسية لتفادي أي نقص
+          echo "include(':app')" > settings.gradle.kts
+          echo "org.gradle.jvmargs=-Xmx2048M" > gradle.properties
 
-      - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
-
-      - name: Build APK (Debug)
-        run: ./gradlew assembleDebug || ./gradlew app:assembleDebug
+      - name: Build APK Cleanly
+        run: ./gradlew assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
