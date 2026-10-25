@@ -1,6 +1,20 @@
 package com.eid.sheepescape
 
+import android.Manifest
 import android.annotation.SuppressLint
+import android.content.pm.PackageManager
+import android.os.Build
+import androidx.activity.result.IntentSenderRequest
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AlertDialog
+import androidx.core.content.ContextCompat
+import com.google.android.play.core.appupdate.AppUpdateManager
+import com.google.android.play.core.appupdate.AppUpdateManagerFactory
+import com.google.android.play.core.appupdate.AppUpdateOptions
+import com.google.android.play.core.install.InstallStateUpdatedListener
+import com.google.android.play.core.install.model.AppUpdateType
+import com.google.android.play.core.install.model.InstallStatus
+import com.google.android.play.core.install.model.UpdateAvailability
 import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
@@ -26,6 +40,13 @@ import androidx.webkit.WebViewAssetLoader
 class MainActivity : AppCompatActivity() {
 
     private lateinit var webView: WebView
+    private var updateMgr: AppUpdateManager? = null
+    private var updateChecked = false
+    private val notifPerm = registerForActivityResult(ActivityResultContracts.RequestPermission()) { }
+    private val updateLauncher = registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) { }
+    private val updateListener = InstallStateUpdatedListener { st ->
+        if (st.installStatus() == InstallStatus.DOWNLOADED) showRestartDialog()
+    }
 
     private companion object {
         const val HOST = "appassets.androidplatform.net"
@@ -130,7 +151,46 @@ class MainActivity : AppCompatActivity() {
         if (hasFocus) hideSystemBars()
     }
 
-    override fun onResume() { super.onResume(); webView.onResume() }
+    override fun onStart() { super.onStart(); Reminders.cancel(this) }
+    override fun onStop() { Reminders.scheduleFromNow(this); super.onStop() }
+
+    override fun onResume() { super.onResume(); webView.onResume(); checkUpdate() }
+
+    /** نافذة تحديث داخل اللعبة (تعمل فقط عند التثبيت من Google Play). */
+    private fun checkUpdate() {
+        try {
+            val mgr = updateMgr ?: AppUpdateManagerFactory.create(this).also { updateMgr = it }
+            mgr.appUpdateInfo.addOnSuccessListener { info ->
+                if (info.installStatus() == InstallStatus.DOWNLOADED) { showRestartDialog(); return@addOnSuccessListener }
+                if (!updateChecked && info.updateAvailability() == UpdateAvailability.UPDATE_AVAILABLE &&
+                    info.isUpdateTypeAllowed(AppUpdateType.FLEXIBLE)) {
+                    updateChecked = true
+                    mgr.registerListener(updateListener)
+                    mgr.startUpdateFlowForResult(info, updateLauncher, AppUpdateOptions.newBuilder(AppUpdateType.FLEXIBLE).build())
+                }
+            }
+        } catch (_: Throwable) { /* غير مثبّت من Google Play */ }
+    }
+
+    private fun showRestartDialog() {
+        if (isFinishing) return
+        val l = Reminders.lang(this)
+        val t = when (l) {
+            "en" -> arrayOf("Update downloaded 🎉", "A new version of the game is ready. Restart the game to install it (your progress is saved).", "Restart", "Later")
+            "id" -> arrayOf("Pembaruan terunduh 🎉", "Versi baru game sudah siap. Mulai ulang game untuk memasangnya (kemajuanmu aman).", "Mulai ulang", "Nanti")
+            "tr" -> arrayOf("Güncelleme indirildi 🎉", "Oyunun yeni sürümü hazır. Yüklemek için oyunu yeniden başlat (ilerlemen kayıtlı).", "Yeniden başlat", "Sonra")
+            "fr" -> arrayOf("Mise à jour téléchargée 🎉", "Une nouvelle version du jeu est prête. Redémarrez le jeu pour l'installer (votre progression est sauvegardée).", "Redémarrer", "Plus tard")
+            "ur" -> arrayOf("اپ ڈیٹ ڈاؤن لوڈ ہو گئی 🎉", "کھیل کا نیا ورژن تیار ہے۔ اسے انسٹال کرنے کے لیے کھیل دوبارہ شروع کریں (آپ کی پیش رفت محفوظ ہے)۔", "دوبارہ شروع کریں", "بعد میں")
+            "bn" -> arrayOf("আপডেট ডাউনলোড হয়েছে 🎉", "খেলার নতুন সংস্করণ প্রস্তুত। ইনস্টল করতে খেলাটি আবার চালু করুন (আপনার অগ্রগতি সংরক্ষিত)।", "আবার চালু করুন", "পরে")
+            else -> arrayOf("تم تنزيل التحديث 🎉", "إصدار جديد من اللعبة جاهز. أعد تشغيل اللعبة لتثبيته (تقدمك محفوظ).", "إعادة التشغيل", "لاحقاً")
+        }
+        AlertDialog.Builder(this)
+            .setTitle(t[0])
+            .setMessage(t[1])
+            .setPositiveButton(t[2]) { _, _ -> try { updateMgr?.completeUpdate() } catch (_: Throwable) {} }
+            .setNegativeButton(t[3], null)
+            .show()
+    }
     override fun onPause() { webView.onPause(); super.onPause() }
 
     override fun onSaveInstanceState(outState: Bundle) {
@@ -148,5 +208,19 @@ class MainActivity : AppCompatActivity() {
     inner class Bridge {
         @JavascriptInterface
         fun exit() { runOnUiThread { finishAndRemoveTask() } }
+
+        @JavascriptInterface
+        fun setLang(l: String) { Reminders.setLang(this@MainActivity, l) }
+
+        @JavascriptInterface
+        fun setReminders(on: Boolean) { Reminders.setOn(this@MainActivity, on) }
+
+        @JavascriptInterface
+        fun requestNotifPermission() {
+            if (Build.VERSION.SDK_INT >= 33 &&
+                ContextCompat.checkSelfPermission(this@MainActivity, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+                runOnUiThread { notifPerm.launch(Manifest.permission.POST_NOTIFICATIONS) }
+            }
+        }
     }
 }
