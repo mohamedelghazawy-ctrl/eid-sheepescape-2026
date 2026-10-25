@@ -1,0 +1,2178 @@
+{
+ "سهل هادئ": {
+  "en": "Easy",
+  "id": "Mudah",
+  "tr": "Kolay",
+  "fr": "Facile",
+  "ur": "آسان",
+  "bn": "সহজ"
+ },
+ "🐑 سهل هادئ: سرعة أبطأ وتسارع لطيف، مناسب للمبتدئين (نقاط ×0.85).": {
+  "en": "🐑 Easy: slower speed and gentle acceleration, great for beginners (score ×0.85).",
+  "id": "🐑 Mudah: kecepatan lebih pelan dan percepatan lembut, cocok untuk pemula (skor ×0,85).",
+  "tr": "🐑 Kolay: daha yavaş hız ve yumuşak ivme, yeni başlayanlar için ideal (puan ×0,85).",
+  "fr": "🐑 Facile : vitesse plus lente et accélération douce, idéal pour débuter (score ×0,85).",
+  "ur": "🐑 آسان: رفتار کم اور نرم تیزی، نئے کھلاڑیوں کے لیے بہترین (اسکور ×0.85)۔",
+  "bn": "🐑 সহজ: ধীর গতি ও মৃদু ত্বরণ, নতুনদের জন্য দারুণ (স্কোর ×০.৮৫)।"
+ },
+ "عادي طبيعي": {
+  "en": "Normal",
+  "id": "Normal",
+  "tr": "Normal",
+  "fr": "Normal",
+  "ur": "عام",
+  "bn": "সাধারণ"
+ },
+ "🏃 عادي: تسارع تدريجي بطيء حتى يصل للحد الأقصى المريح والممتع.": {
+  "en": "🏃 Normal: slow, gradual acceleration up to a comfortable, fun top speed.",
+  "id": "🏃 Normal: percepatan pelan dan bertahap sampai kecepatan puncak yang nyaman dan seru.",
+  "tr": "🏃 Normal: rahat ve eğlenceli en yüksek hıza kadar yavaş, kademeli ivme.",
+  "fr": "🏃 Normal : accélération lente et progressive jusqu'à une vitesse maximale confortable et amusante.",
+  "ur": "🏃 عام: سست اور بتدریج تیزی، آرام دہ اور مزے دار زیادہ سے زیادہ رفتار تک۔",
+  "bn": "🏃 সাধারণ: আরামদায়ক ও মজার সর্বোচ্চ গতি পর্যন্ত ধীরে ধীরে ত্বরণ।"
+ },
+ "صعب ناري": {
+  "en": "Fiery Hard",
+  "id": "Pedas Sulit",
+  "tr": "Ateşli Zor",
+  "fr": "Piquant",
+  "ur": "تیکھا مشکل",
+  "bn": "ঝাল কঠিন"
+ },
+ "🌶️ صعب ناري: سرعة عالية وتسارع سريع للمحترفين فقط (نقاط ×1.25).": {
+  "en": "🌶️ Fiery Hard: high speed and fast acceleration for pros only (score ×1.25).",
+  "id": "🌶️ Pedas Sulit: kecepatan tinggi dan percepatan cepat, khusus para jagoan (skor ×1,25).",
+  "tr": "🌶️ Ateşli Zor: yüksek hız ve hızlı ivme, sadece profesyoneller için (puan ×1,25).",
+  "fr": "🌶️ Piquant : vitesse élevée et accélération rapide, réservé aux pros (score ×1,25).",
+  "ur": "🌶️ تیکھا مشکل: تیز رفتار اور فوری تیزی، صرف ماہرین کے لیے (اسکور ×1.25)۔",
+  "bn": "🌶️ ঝাল কঠিন: উচ্চ গতি ও দ্রুত ত্বরণ, শুধু ওস্তাদদের জন্য (স্কোর ×১.২৫)।"
+ },
+ "خروف نيئ سهل الصيد 🐑": {
+  "en": "Raw Sheep, Easy Prey 🐑",
+  "id": "Domba Mentah Gampang Ditangkap 🐑",
+  "tr": "Çiğ Koyun, Kolay Av 🐑",
+  "fr": "Mouton cru, proie facile 🐑",
+  "ur": "کچا دنبہ، آسان شکار 🐑",
+  "bn": "কাঁচা ভেড়া, সহজ শিকার 🐑"
+ },
+ "خروف يتعلم الجري 🐾": {
+  "en": "Sheep Learning to Run 🐾",
+  "id": "Domba Belajar Lari 🐾",
+  "tr": "Koşmayı Öğrenen Koyun 🐾",
+  "fr": "Mouton qui apprend à courir 🐾",
+  "ur": "دوڑنا سیکھتا دنبہ 🐾",
+  "bn": "দৌড় শেখা ভেড়া 🐾"
+ },
+ "خروف رشيق ⚡": {
+  "en": "Nimble Sheep ⚡",
+  "id": "Domba Gesit ⚡",
+  "tr": "Çevik Koyun ⚡",
+  "fr": "Mouton agile ⚡",
+  "ur": "چست دنبہ ⚡",
+  "bn": "চটপটে ভেড়া ⚡"
+ },
+ "خروف الحواري 🏘️": {
+  "en": "Alley Sheep 🏘️",
+  "id": "Domba Gang 🏘️",
+  "tr": "Mahalle Koyunu 🏘️",
+  "fr": "Mouton des ruelles 🏘️",
+  "ur": "گلی کا دنبہ 🏘️",
+  "bn": "গলির ভেড়া 🏘️"
+ },
+ "خروف نينجا 🥷": {
+  "en": "Ninja Sheep 🥷",
+  "id": "Domba Ninja 🥷",
+  "tr": "Ninja Koyun 🥷",
+  "fr": "Mouton ninja 🥷",
+  "ur": "نِنجا دنبہ 🥷",
+  "bn": "নিনজা ভেড়া 🥷"
+ },
+ "أسطورة الهروب 🔥": {
+  "en": "Escape Legend 🔥",
+  "id": "Legenda Pelarian 🔥",
+  "tr": "Kaçış Efsanesi 🔥",
+  "fr": "Légende de l'évasion 🔥",
+  "ur": "فرار کی داستان 🔥",
+  "bn": "পলায়নের কিংবদন্তি 🔥"
+ },
+ "ملك الخرفان 👑": {
+  "en": "King of Sheep 👑",
+  "id": "Raja Domba 👑",
+  "tr": "Koyunların Kralı 👑",
+  "fr": "Roi des moutons 👑",
+  "ur": "دنبوں کا بادشاہ 👑",
+  "bn": "ভেড়াদের রাজা 👑"
+ },
+ "الطربوش المصري": {
+  "en": "Egyptian Fez",
+  "id": "Fez Mesir",
+  "tr": "Mısır Fesi",
+  "fr": "Fez égyptien",
+  "ur": "مصری ٹوپی (فیز)",
+  "bn": "মিশরীয় ফেজ টুপি"
+ },
+ "أناقة الزمن الجميل.": {
+  "en": "Old-time elegance.",
+  "id": "Keanggunan zaman dulu.",
+  "tr": "Eski zamanların şıklığı.",
+  "fr": "L'élégance d'antan.",
+  "ur": "پرانے زمانے کی شان۔",
+  "bn": "পুরনো দিনের আভিজাত্য।"
+ },
+ "نظارة شمس": {
+  "en": "Sunglasses",
+  "id": "Kacamata Hitam",
+  "tr": "Güneş Gözlüğü",
+  "fr": "Lunettes de soleil",
+  "ur": "دھوپ کا چشمہ",
+  "bn": "রোদচশমা"
+ },
+ "خروف كوووول.": {
+  "en": "One super cool sheep.",
+  "id": "Satu domba super keren.",
+  "tr": "Süper havalı bir koyun.",
+  "fr": "Un mouton super cool.",
+  "ur": "ایک بہت ہی کول دنبہ۔",
+  "bn": "একটা দারুণ কুল ভেড়া।"
+ },
+ "كاب رياضي": {
+  "en": "Sports Cap",
+  "id": "Topi Olahraga",
+  "tr": "Spor Şapka",
+  "fr": "Casquette de sport",
+  "ur": "اسپورٹس کیپ",
+  "bn": "স্পোর্টস ক্যাপ"
+ },
+ "للركض بأسلوب عصري.": {
+  "en": "Run in modern style.",
+  "id": "Berlari dengan gaya modern.",
+  "tr": "Modern tarzda koşun.",
+  "fr": "Pour courir à la mode.",
+  "ur": "جدید انداز میں دوڑیں۔",
+  "bn": "আধুনিক ঢঙে দৌড়ান।"
+ },
+ "فيونكة العيد": {
+  "en": "Eid Bow Tie",
+  "id": "Dasi Kupu-kupu Idul Adha",
+  "tr": "Bayram Papyonu",
+  "fr": "Nœud papillon de l'Aïd",
+  "ur": "عید کی بو ٹائی",
+  "bn": "ঈদের বো টাই"
+ },
+ "مناسبة للعيد!": {
+  "en": "Perfect for Eid!",
+  "id": "Pas untuk Idul Adha!",
+  "tr": "Bayrama çok yakışır!",
+  "fr": "Parfait pour l'Aïd !",
+  "ur": "عید کے لیے بہترین!",
+  "bn": "ঈদের জন্য একদম মানানসই!"
+ },
+ "عمامة الجزار": {
+  "en": "Butcher's Turban",
+  "id": "Sorban Si Jagal",
+  "tr": "Kasabın Sarığı",
+  "fr": "Turban du boucher",
+  "ur": "قصائی کی پگڑی",
+  "bn": "কসাইয়ের পাগড়ি"
+ },
+ "وقار وهيبة.": {
+  "en": "Dignity and prestige.",
+  "id": "Berwibawa dan megah.",
+  "tr": "Vakar ve heybet.",
+  "fr": "Dignité et prestance.",
+  "ur": "وقار اور رعب۔",
+  "bn": "গাম্ভীর্য ও প্রতাপ।"
+ },
+ "عباءة البطل": {
+  "en": "Hero's Cape",
+  "id": "Jubah Pahlawan",
+  "tr": "Kahraman Pelerini",
+  "fr": "Cape de héros",
+  "ur": "ہیرو کی چادر",
+  "bn": "বীরের আলখাল্লা"
+ },
+ "خروف خارق يطير في الهواء.": {
+  "en": "A super sheep flying through the air.",
+  "id": "Domba super yang terbang di udara.",
+  "tr": "Havada uçan süper koyun.",
+  "fr": "Un super mouton qui vole dans les airs.",
+  "ur": "ہوا میں اڑتا ہوا سپر دنبہ۔",
+  "bn": "আকাশে উড়ন্ত সুপার ভেড়া।"
+ },
+ "تاج الملك": {
+  "en": "King's Crown",
+  "id": "Mahkota Raja",
+  "tr": "Kral Tacı",
+  "fr": "Couronne du roi",
+  "ur": "بادشاہ کا تاج",
+  "bn": "রাজার মুকুট"
+ },
+ "للأساطير فقط.": {
+  "en": "For legends only.",
+  "id": "Khusus para legenda.",
+  "tr": "Sadece efsaneler için.",
+  "fr": "Réservé aux légendes.",
+  "ur": "صرف داستانوں کے لیے۔",
+  "bn": "শুধু কিংবদন্তিদের জন্য।"
+ },
+ "ذرة مغناطيسية": {
+  "en": "Magnetic Corn",
+  "id": "Jagung Magnet",
+  "tr": "Mıknatıslı Mısır",
+  "fr": "Maïs magnétique",
+  "ur": "مقناطیسی مکئی",
+  "bn": "চুম্বক ভুট্টা"
+ },
+ "مدة المغناطيس {0} ثوانٍ": {
+  "en": "Magnet lasts {0} seconds",
+  "id": "Magnet bertahan {0} detik",
+  "tr": "Mıknatıs {0} saniye sürer",
+  "fr": "Aimant : {0} secondes",
+  "ur": "مقناطیس {0} سیکنڈ چلتا ہے",
+  "bn": "চুম্বক {0} সেকেন্ড থাকে"
+ },
+ "خرزة قوية": {
+  "en": "Strong Bead",
+  "id": "Manik Kuat",
+  "tr": "Güçlü Boncuk",
+  "fr": "Perle puissante",
+  "ur": "طاقتور منکا",
+  "bn": "শক্তিশালী পুঁতি"
+ },
+ "مدة الدرع {0} ثانية": {
+  "en": "Shield lasts {0} seconds",
+  "id": "Perisai bertahan {0} detik",
+  "tr": "Kalkan {0} saniye sürer",
+  "fr": "Bouclier : {0} secondes",
+  "ur": "ڈھال {0} سیکنڈ چلتی ہے",
+  "bn": "ঢাল {0} সেকেন্ড থাকে"
+ },
+ "نجمة ذهبية": {
+  "en": "Golden Star",
+  "id": "Bintang Emas",
+  "tr": "Altın Yıldız",
+  "fr": "Étoile dorée",
+  "ur": "سنہری ستارہ",
+  "bn": "সোনালি তারা"
+ },
+ "مدة مضاعف النقاط {0} ثوانٍ": {
+  "en": "Score multiplier lasts {0} seconds",
+  "id": "Pengganda skor bertahan {0} detik",
+  "tr": "Puan çarpanı {0} saniye sürer",
+  "fr": "Multiplicateur de score : {0} secondes",
+  "ur": "اسکور دگنا ہونے کا وقت {0} سیکنڈ",
+  "bn": "স্কোর দ্বিগুণের সময় {0} সেকেন্ড"
+ },
+ "انطلاقة قوية": {
+  "en": "Strong Start",
+  "id": "Awal yang Kuat",
+  "tr": "Güçlü Başlangıç",
+  "fr": "Départ en force",
+  "ur": "زوردار آغاز",
+  "bn": "জোরালো শুরু"
+ },
+ "تبدأ كل جولة بدرع {0} ثوانٍ": {
+  "en": "Every round starts with a {0}-second shield",
+  "id": "Setiap ronde dimulai dengan perisai {0} detik",
+  "tr": "Her tur {0} saniyelik kalkanla başlar",
+  "fr": "Chaque partie commence avec un bouclier de {0} secondes",
+  "ur": "ہر راؤنڈ {0} سیکنڈ کی ڈھال کے ساتھ شروع ہوتا ہے",
+  "bn": "প্রতিটি রাউন্ড {0} সেকেন্ডের ঢাল দিয়ে শুরু হয়"
+ },
+ "ابدأ كل جولة بدرع مؤقت": {
+  "en": "Start every round with a temporary shield",
+  "id": "Mulai setiap ronde dengan perisai sementara",
+  "tr": "Her turu geçici bir kalkanla başlat",
+  "fr": "Commencez chaque partie avec un bouclier temporaire",
+  "ur": "ہر راؤنڈ عارضی ڈھال کے ساتھ شروع کریں",
+  "bn": "প্রতিটি রাউন্ড অস্থায়ী ঢাল দিয়ে শুরু করুন"
+ },
+ "فلفل أطول": {
+  "en": "Longer Pepper",
+  "id": "Cabai Lebih Lama",
+  "tr": "Daha Uzun Biber",
+  "fr": "Piment longue durée",
+  "ur": "زیادہ دیر والی مرچ",
+  "bn": "দীর্ঘস্থায়ী মরিচ"
+ },
+ "مدة الطيران {0} ثانية": {
+  "en": "Flight lasts {0} seconds",
+  "id": "Terbang bertahan {0} detik",
+  "tr": "Uçuş {0} saniye sürer",
+  "fr": "Vol : {0} secondes",
+  "ur": "اڑان {0} سیکنڈ چلتی ہے",
+  "bn": "উড়াল {0} সেকেন্ড স্থায়ী"
+ },
+ "حماية الجولة": {
+  "en": "Round Protection",
+  "id": "Perlindungan Ronde",
+  "tr": "Tur Koruması",
+  "fr": "Protection de partie",
+  "ur": "راؤنڈ کی حفاظت",
+  "bn": "রাউন্ডের সুরক্ষা"
+ },
+ "تبدأ الجولة القادمة بدرع ٨ ثوانٍ.": {
+  "en": "Next round starts with an 8-second shield.",
+  "id": "Ronde berikutnya dimulai dengan perisai 8 detik.",
+  "tr": "Sonraki tur 8 saniyelik kalkanla başlar.",
+  "fr": "La prochaine partie commence avec un bouclier de 8 secondes.",
+  "ur": "اگلا راؤنڈ 8 سیکنڈ کی ڈھال کے ساتھ شروع ہوگا۔",
+  "bn": "পরের রাউন্ড ৮ সেকেন্ডের ঢাল দিয়ে শুরু হবে।"
+ },
+ "مغناطيس البداية": {
+  "en": "Starting Magnet",
+  "id": "Magnet Awal",
+  "tr": "Başlangıç Mıknatısı",
+  "fr": "Aimant de départ",
+  "ur": "ابتدائی مقناطیس",
+  "bn": "শুরুতেই চুম্বক"
+ },
+ "تبدأ الجولة القادمة بمغناطيس ١٠ ثوانٍ.": {
+  "en": "Next round starts with a 10-second magnet.",
+  "id": "Ronde berikutnya dimulai dengan magnet 10 detik.",
+  "tr": "Sonraki tur 10 saniyelik mıknatısla başlar.",
+  "fr": "La prochaine partie commence avec un aimant de 10 secondes.",
+  "ur": "اگلا راؤنڈ 10 سیکنڈ کے مقناطیس کے ساتھ شروع ہوگا۔",
+  "bn": "পরের রাউন্ড ১০ সেকেন্ডের চুম্বক দিয়ে শুরু হবে।"
+ },
+ "انطلاقة بالفلفل": {
+  "en": "Pepper Boost",
+  "id": "Awal Pedas",
+  "tr": "Biberli Başlangıç",
+  "fr": "Départ piquant",
+  "ur": "مرچ کے ساتھ آغاز",
+  "bn": "মরিচ দিয়ে শুরু"
+ },
+ "تبدأ الجولة القادمة بطيران ٨ ثوانٍ فوق العقبات.": {
+  "en": "Next round starts with 8 seconds of flight over obstacles.",
+  "id": "Ronde berikutnya dimulai dengan terbang 8 detik di atas rintangan.",
+  "tr": "Sonraki tur engellerin üzerinde 8 saniyelik uçuşla başlar.",
+  "fr": "La prochaine partie commence avec 8 secondes de vol au-dessus des obstacles.",
+  "ur": "اگلا راؤنڈ رکاوٹوں کے اوپر 8 سیکنڈ کی اڑان کے ساتھ شروع ہوگا۔",
+  "bn": "পরের রাউন্ড বাধার ওপর দিয়ে ৮ সেকেন্ড উড়ে শুরু হবে।"
+ },
+ "العتبة 🎷": {
+  "en": "Al-Ataba 🎷",
+  "id": "Al-Ataba 🎷",
+  "tr": "Al-Ataba 🎷",
+  "fr": "Al-Ataba 🎷",
+  "ur": "عتبہ 🎷",
+  "bn": "আল-আতাবা 🎷"
+ },
+ "طبلة وزمر 🥁": {
+  "en": "Drums & Pipes 🥁",
+  "id": "Gendang & Seruling 🥁",
+  "tr": "Davul ve Zurna 🥁",
+  "fr": "Tambours et flûtes 🥁",
+  "ur": "ڈھول اور شہنائی 🥁",
+  "bn": "ঢোল ও সানাই 🥁"
+ },
+ "ليالي الشرق 🌙": {
+  "en": "Oriental Nights 🌙",
+  "id": "Malam-malam Timur 🌙",
+  "tr": "Doğu Geceleri 🌙",
+  "fr": "Nuits d'Orient 🌙",
+  "ur": "مشرق کی راتیں 🌙",
+  "bn": "প্রাচ্যের রাত 🌙"
+ },
+ "الوصول إلى مسافة {0} متر 🏃": {
+  "en": "Reach a distance of {0} meters 🏃",
+  "id": "Capai jarak {0} meter 🏃",
+  "tr": "{0} metre mesafeye ulaş 🏃",
+  "fr": "Atteindre {0} mètres 🏃",
+  "ur": "{0} میٹر کا فاصلہ طے کریں 🏃",
+  "bn": "{0} মিটার দূরত্বে পৌঁছান 🏃"
+ },
+ "تجنب {0} عقبات متتالية 🛡️": {
+  "en": "Dodge {0} obstacles in a row 🛡️",
+  "id": "Hindari {0} rintangan berturut-turut 🛡️",
+  "tr": "Üst üste {0} engelden kaç 🛡️",
+  "fr": "Esquiver {0} obstacles d'affilée 🛡️",
+  "ur": "لگاتار {0} رکاوٹوں سے بچیں 🛡️",
+  "bn": "টানা {0}টি বাধা এড়ান 🛡️"
+ },
+ "جمع {0} زهرة برسيم خضراء 🍀": {
+  "en": "Collect {0} green clovers 🍀",
+  "id": "Kumpulkan {0} semanggi hijau 🍀",
+  "tr": "{0} yeşil yonca topla 🍀",
+  "fr": "Ramasser {0} trèfles verts 🍀",
+  "ur": "{0} ہرے برسیم جمع کریں 🍀",
+  "bn": "{0}টি সবুজ ক্লোভার সংগ্রহ করুন 🍀"
+ },
+ "جمع {0} كيزان ذرة سحرية 🌽": {
+  "en": "Collect {0} magic corn cobs 🌽",
+  "id": "Kumpulkan {0} tongkol jagung ajaib 🌽",
+  "tr": "{0} sihirli mısır koçanı topla 🌽",
+  "fr": "Ramasser {0} épis de maïs magique 🌽",
+  "ur": "{0} جادوئی بھٹے جمع کریں 🌽",
+  "bn": "{0}টি জাদুর ভুট্টা সংগ্রহ করুন 🌽"
+ },
+ "تحقيق نتيجة {0} نقطة بالهروب 🔥": {
+  "en": "Score {0} points in one escape 🔥",
+  "id": "Raih {0} poin dalam satu pelarian 🔥",
+  "tr": "Tek kaçışta {0} puan yap 🔥",
+  "fr": "Marquer {0} points en une évasion 🔥",
+  "ur": "ایک فرار میں {0} پوائنٹ بنائیں 🔥",
+  "bn": "এক পলায়নে {0} পয়েন্ট করুন 🔥"
+ },
+ "اقفز {0} مرة 🦘": {
+  "en": "Jump {0} times 🦘",
+  "id": "Lompat {0} kali 🦘",
+  "tr": "{0} kez zıpla 🦘",
+  "fr": "Sauter {0} fois 🦘",
+  "ur": "{0} بار چھلانگ لگائیں 🦘",
+  "bn": "{0} বার লাফ দিন 🦘"
+ },
+ "تزحلق {0} مرة 🛷": {
+  "en": "Slide {0} times 🛷",
+  "id": "Seluncur {0} kali 🛷",
+  "tr": "{0} kez kay 🛷",
+  "fr": "Glisser {0} fois 🛷",
+  "ur": "{0} بار پھسلیں 🛷",
+  "bn": "{0} বার স্লাইড করুন 🛷"
+ },
+ "التقط {0} دروع 🧿": {
+  "en": "Grab {0} shields 🧿",
+  "id": "Ambil {0} perisai 🧿",
+  "tr": "{0} kalkan al 🧿",
+  "fr": "Attraper {0} boucliers 🧿",
+  "ur": "{0} ڈھالیں اٹھائیں 🧿",
+  "bn": "{0}টি ঢাল নিন 🧿"
+ },
+ "اجرِ 500 متر في جولة واحدة": {
+  "en": "Run 500 meters in a single round",
+  "id": "Lari 500 meter dalam satu ronde",
+  "tr": "Tek turda 500 metre koş",
+  "fr": "Courir 500 mètres en une seule partie",
+  "ur": "ایک راؤنڈ میں 500 میٹر دوڑیں",
+  "bn": "এক রাউন্ডে ৫০০ মিটার দৌড়ান"
+ },
+ "اجرِ 2000 متر في جولة واحدة": {
+  "en": "Run 2000 meters in a single round",
+  "id": "Lari 2000 meter dalam satu ronde",
+  "tr": "Tek turda 2000 metre koş",
+  "fr": "Courir 2000 mètres en une seule partie",
+  "ur": "ایک راؤنڈ میں 2000 میٹر دوڑیں",
+  "bn": "এক রাউন্ডে ২০০০ মিটার দৌড়ান"
+ },
+ "حقق 5000 نقطة": {
+  "en": "Score 5000 points",
+  "id": "Raih 5000 poin",
+  "tr": "5000 puan yap",
+  "fr": "Marquer 5000 points",
+  "ur": "5000 پوائنٹ بنائیں",
+  "bn": "৫০০০ পয়েন্ট করুন"
+ },
+ "حقق 20000 نقطة": {
+  "en": "Score 20000 points",
+  "id": "Raih 20000 poin",
+  "tr": "20000 puan yap",
+  "fr": "Marquer 20000 points",
+  "ur": "20000 پوائنٹ بنائیں",
+  "bn": "২০০০০ পয়েন্ট করুন"
+ },
+ "اجمع 100 برسيم": {
+  "en": "Collect 100 clovers",
+  "id": "Kumpulkan 100 semanggi",
+  "tr": "100 yonca topla",
+  "fr": "Ramasser 100 trèfles",
+  "ur": "100 برسیم جمع کریں",
+  "bn": "১০০ ক্লোভার সংগ্রহ করুন"
+ },
+ "اجمع 1000 برسيم": {
+  "en": "Collect 1000 clovers",
+  "id": "Kumpulkan 1000 semanggi",
+  "tr": "1000 yonca topla",
+  "fr": "Ramasser 1000 trèfles",
+  "ur": "1000 برسیم جمع کریں",
+  "bn": "১০০০ ক্লোভার সংগ্রহ করুন"
+ },
+ "العب 10 جولات": {
+  "en": "Play 10 rounds",
+  "id": "Main 10 ronde",
+  "tr": "10 tur oyna",
+  "fr": "Jouer 10 parties",
+  "ur": "10 راؤنڈ کھیلیں",
+  "bn": "১০ রাউন্ড খেলুন"
+ },
+ "اشترِ أول زي من الدكان": {
+  "en": "Buy your first outfit from the shop",
+  "id": "Beli kostum pertama dari toko",
+  "tr": "Dükkandan ilk kıyafetini al",
+  "fr": "Acheter votre première tenue à la boutique",
+  "ur": "دکان سے پہلا لباس خریدیں",
+  "bn": "দোকান থেকে প্রথম পোশাক কিনুন"
+ },
+ "التقط درعاً": {
+  "en": "Grab a shield",
+  "id": "Ambil sebuah perisai",
+  "tr": "Bir kalkan al",
+  "fr": "Attraper un bouclier",
+  "ur": "ایک ڈھال اٹھائیں",
+  "bn": "একটি ঢাল নিন"
+ },
+ "تجنب 30 عقبة متتالية": {
+  "en": "Dodge 30 obstacles in a row",
+  "id": "Hindari 30 rintangan berturut-turut",
+  "tr": "Üst üste 30 engelden kaç",
+  "fr": "Esquiver 30 obstacles d'affilée",
+  "ur": "لگاتار 30 رکاوٹوں سے بچیں",
+  "bn": "টানা ৩০টি বাধা এড়ান"
+ },
+ "م": {
+  "en": "m",
+  "id": "m",
+  "tr": "m",
+  "fr": "m",
+  "ur": "م",
+  "bn": "মি"
+ },
+ "يوم واحد": {
+  "en": "One day",
+  "id": "Satu hari",
+  "tr": "Bir gün",
+  "fr": "Un jour",
+  "ur": "ایک دن",
+  "bn": "এক দিন"
+ },
+ "يومان": {
+  "en": "Two days",
+  "id": "Dua hari",
+  "tr": "İki gün",
+  "fr": "Deux jours",
+  "ur": "دو دن",
+  "bn": "দুই দিন"
+ },
+ " أيام": {
+  "en": " days",
+  "id": " hari",
+  "tr": " gün",
+  "fr": " jours",
+  "ur": " دن",
+  "bn": " দিন"
+ },
+ " يوماً": {
+  "en": " days",
+  "id": " hari",
+  "tr": " gün",
+  "fr": " jours",
+  "ur": " دن",
+  "bn": " দিন"
+ },
+ "🔥 تتابع الدخول: {0}": {
+  "en": "🔥 Login streak: {0}",
+  "id": "🔥 Beruntun masuk: {0}",
+  "tr": "🔥 Giriş serisi: {0}",
+  "fr": "🔥 Série de connexions : {0}",
+  "ur": "🔥 لگاتار حاضری: {0}",
+  "bn": "🔥 টানা লগইন: {0}"
+ },
+ "الآن!": {
+  "en": "Now!",
+  "id": "Sekarang!",
+  "tr": "Şimdi!",
+  "fr": "Maintenant !",
+  "ur": "ابھی!",
+  "bn": "এখনই!"
+ },
+ "<div class=\"day {0} {1}\"><small>يوم {2}</small><span class=\"ic\">{3}</span><span class=\"amt\">+{4}🍀{5}{6}</span><small>{7}</small></div>": {
+  "en": "<div class=\"day {0} {1}\"><small>Day {2}</small><span class=\"ic\">{3}</span><span class=\"amt\">+{4}🍀{5}{6}</span><small>{7}</small></div>",
+  "id": "<div class=\"day {0} {1}\"><small>Hari {2}</small><span class=\"ic\">{3}</span><span class=\"amt\">+{4}🍀{5}{6}</span><small>{7}</small></div>",
+  "tr": "<div class=\"day {0} {1}\"><small>{2}. Gün</small><span class=\"ic\">{3}</span><span class=\"amt\">+{4}🍀{5}{6}</span><small>{7}</small></div>",
+  "fr": "<div class=\"day {0} {1}\"><small>Jour {2}</small><span class=\"ic\">{3}</span><span class=\"amt\">+{4}🍀{5}{6}</span><small>{7}</small></div>",
+  "ur": "<div class=\"day {0} {1}\"><small>دن {2}</small><span class=\"ic\">{3}</span><span class=\"amt\">+{4}🍀{5}{6}</span><small>{7}</small></div>",
+  "bn": "<div class=\"day {0} {1}\"><small>দিন {2}</small><span class=\"ic\">{3}</span><span class=\"amt\">+{4}🍀{5}{6}</span><small>{7}</small></div>"
+ },
+ "✅ استلمت مكافأة اليوم — عُد غداً!": {
+  "en": "✅ Today's reward claimed — come back tomorrow!",
+  "id": "✅ Hadiah hari ini sudah diambil — kembali besok!",
+  "tr": "✅ Bugünün ödülü alındı — yarın tekrar gel!",
+  "fr": "✅ Récompense du jour récupérée — revenez demain !",
+  "ur": "✅ آج کا انعام لے لیا — کل پھر آئیں!",
+  "bn": "✅ আজকের পুরস্কার নেওয়া হয়েছে — কাল আবার আসুন!"
+ },
+ "🎁 استلم مكافأة اليوم {0} (+{1} 🍀{2})": {
+  "en": "🎁 Claim today's reward {0} (+{1} 🍀{2})",
+  "id": "🎁 Ambil hadiah hari ini {0} (+{1} 🍀{2})",
+  "tr": "🎁 Bugünün ödülünü al {0} (+{1} 🍀{2})",
+  "fr": "🎁 Récupérer la récompense du jour {0} (+{1} 🍀{2})",
+  "ur": "🎁 آج کا انعام لیں {0} (+{1} 🍀{2})",
+  "bn": "🎁 আজকের পুরস্কার নিন {0} (+{1} 🍀{2})"
+ },
+ "🎁 حصلت على +{0} 🍀": {
+  "en": "🎁 You got +{0} 🍀",
+  "id": "🎁 Kamu dapat +{0} 🍀",
+  "tr": "🎁 +{0} 🍀 kazandın",
+  "fr": "🎁 Vous avez gagné +{0} 🍀",
+  "ur": "🎁 آپ نے +{0} 🍀 حاصل کیے",
+  "bn": "🎁 আপনি +{0} 🍀 পেয়েছেন"
+ },
+ " + 🎈 بالونة": {
+  "en": " + 🎈 balloon",
+  "id": " + 🎈 balon",
+  "tr": " + 🎈 balon",
+  "fr": " + 🎈 ballon",
+  "ur": " + 🎈 غبارہ",
+  "bn": " + 🎈 বেলুন"
+ },
+ " وهدية: {0} {1}": {
+  "en": " and a gift: {0} {1}",
+  "id": " dan hadiah: {0} {1}",
+  "tr": " ve hediye: {0} {1}",
+  "fr": " et un cadeau : {0} {1}",
+  "ur": " اور تحفہ: {0} {1}",
+  "bn": " এবং উপহার: {0} {1}"
+ },
+ " + 1,000 🍀 هدية": {
+  "en": " + 1,000 🍀 gift",
+  "id": " + hadiah 1.000 🍀",
+  "tr": " + 1.000 🍀 hediye",
+  "fr": " + cadeau de 1 000 🍀",
+  "ur": " + 1,000 🍀 تحفہ",
+  "bn": " + ১,০০০ 🍀 উপহার"
+ },
+ "🎯 تحدٍّ مكتمل! اذهب لاستلام جائزتك": {
+  "en": "🎯 Challenge complete! Go claim your prize",
+  "id": "🎯 Tantangan selesai! Ambil hadiahmu",
+  "tr": "🎯 Görev tamamlandı! Ödülünü almaya git",
+  "fr": "🎯 Défi accompli ! Allez récupérer votre prix",
+  "ur": "🎯 چیلنج مکمل! اپنا انعام لینے جائیں",
+  "bn": "🎯 চ্যালেঞ্জ সম্পন্ন! পুরস্কার নিতে যান"
+ },
+ "<button class=\"btn small\" style=\"width:auto\" data-claim=\"{0}\">استلم</button>": {
+  "en": "<button class=\"btn small\" style=\"width:auto\" data-claim=\"{0}\">Claim</button>",
+  "id": "<button class=\"btn small\" style=\"width:auto\" data-claim=\"{0}\">Ambil</button>",
+  "tr": "<button class=\"btn small\" style=\"width:auto\" data-claim=\"{0}\">Al</button>",
+  "fr": "<button class=\"btn small\" style=\"width:auto\" data-claim=\"{0}\">Récupérer</button>",
+  "ur": "<button class=\"btn small\" style=\"width:auto\" data-claim=\"{0}\">وصول کریں</button>",
+  "bn": "<button class=\"btn small\" style=\"width:auto\" data-claim=\"{0}\">নিন</button>"
+ },
+ " — جائزة +": {
+  "en": " — prize +",
+  "id": " — hadiah +",
+  "tr": " — ödül +",
+  "fr": " — prix +",
+  "ur": " — انعام +",
+  "bn": " — পুরস্কার +"
+ },
+ "🔄 تجديد التحديات غير المكتملة ({0} 🍀)": {
+  "en": "🔄 Refresh unfinished challenges ({0} 🍀)",
+  "id": "🔄 Segarkan tantangan yang belum selesai ({0} 🍀)",
+  "tr": "🔄 Tamamlanmamış görevleri yenile ({0} 🍀)",
+  "fr": "🔄 Relancer les défis non terminés ({0} 🍀)",
+  "ur": "🔄 نامکمل چیلنج دوبارہ شروع کریں ({0} 🍀)",
+  "bn": "🔄 অসম্পূর্ণ চ্যালেঞ্জ নতুন করুন ({0} 🍀)"
+ },
+ "رصيدك من البرسيم لا يكفي 🍀": {
+  "en": "Not enough clovers 🍀",
+  "id": "Semanggimu tidak cukup 🍀",
+  "tr": "Yoncan yetmiyor 🍀",
+  "fr": "Pas assez de trèfles 🍀",
+  "ur": "آپ کے برسیم کافی نہیں ہیں 🍀",
+  "bn": "আপনার ক্লোভার যথেষ্ট নয় 🍀"
+ },
+ "🔄 تم تجديد التحديات": {
+  "en": "🔄 Challenges refreshed",
+  "id": "🔄 Tantangan disegarkan",
+  "tr": "🔄 Görevler yenilendi",
+  "fr": "🔄 Défis relancés",
+  "ur": "🔄 چیلنج نئے کر دیے گئے",
+  "bn": "🔄 চ্যালেঞ্জ নতুন করা হয়েছে"
+ },
+ "+{0} 🍀 مبروك!": {
+  "en": "+{0} 🍀 Congrats!",
+  "id": "+{0} 🍀 Selamat!",
+  "tr": "+{0} 🍀 Tebrikler!",
+  "fr": "+{0} 🍀 Bravo !",
+  "ur": "+{0} 🍀 مبارک ہو!",
+  "bn": "+{0} 🍀 অভিনন্দন!"
+ },
+ "<button class=\"btn small blue\" disabled>انتهى اليوم</button>": {
+  "en": "<button class=\"btn small blue\" disabled>Done for today</button>",
+  "id": "<button class=\"btn small blue\" disabled>Selesai hari ini</button>",
+  "tr": "<button class=\"btn small blue\" disabled>Bugünlük bitti</button>",
+  "fr": "<button class=\"btn small blue\" disabled>Terminé pour aujourd'hui</button>",
+  "ur": "<button class=\"btn small blue\" disabled>آج کے لیے ختم</button>",
+  "bn": "<button class=\"btn small blue\" disabled>আজকের মতো শেষ</button>"
+ },
+ "تتاح بعد استنفاد مرتَي الشراء اليومية.": {
+  "en": "Available after you use up the two daily purchases.",
+  "id": "Tersedia setelah dua pembelian harian habis dipakai.",
+  "tr": "Günlük iki satın alma hakkı bittikten sonra açılır.",
+  "fr": "Disponible après avoir utilisé les deux achats quotidiens.",
+  "ur": "روزانہ کی دونوں خریداریاں ختم ہونے کے بعد دستیاب ہوگا۔",
+  "bn": "দৈনিক দুটি কেনা শেষ হলে পাওয়া যাবে।"
+ },
+ "شاهد إعلاناً قصيراً واحصل على بالونة.": {
+  "en": "Watch a short ad and get a balloon.",
+  "id": "Tonton iklan singkat dan dapatkan balon.",
+  "tr": "Kısa bir reklam izle ve balon kazan.",
+  "fr": "Regardez une courte pub et gagnez un ballon.",
+  "ur": "ایک چھوٹا اشتہار دیکھیں اور غبارہ حاصل کریں۔",
+  "bn": "একটি ছোট বিজ্ঞাপন দেখে বেলুন নিন।"
+ },
+ "<div class=\"story\">🎈 <b>بالونة العيد:</b> إن أمسك بك الجزار تربط البالونات الخروف وتطير به للأعلى فيقطع الحبل ويكمل الجري. تُستهلك بالونة واحدة في كل مرة.</div>\n      <div class=\"item\" style=\"margin-top:12px\"><div class=\"pic\">🎈</div><div class=\"grow\"><b>بالونة العيد</b><small>لديك الآن: {0} 🎈<br>متاح شراؤها بالبرسيم اليوم: {1} من 2</small></div>{2}</div>\n      <div class=\"item\"><div class=\"pic\">📺</div><div class=\"grow\"><b>بالونة مقابل إعلان</b><small>{3}</small></div><button class=\"btn small orange\" data-ad=\"1\" {4}>شاهد إعلان</button></div>": {
+  "en": "<div class=\"story\">🎈 <b>Eid Balloon:</b> if the butcher catches you, balloons tie onto the sheep and lift it up; it snaps the rope and keeps running. One balloon is used each time.</div>\n      <div class=\"item\" style=\"margin-top:12px\"><div class=\"pic\">🎈</div><div class=\"grow\"><b>Eid Balloon</b><small>You have: {0} 🎈<br>Purchasable with clovers today: {1} of 2</small></div>{2}</div>\n      <div class=\"item\"><div class=\"pic\">📺</div><div class=\"grow\"><b>Balloon for an ad</b><small>{3}</small></div><button class=\"btn small orange\" data-ad=\"1\" {4}>Watch ad</button></div>",
+  "id": "<div class=\"story\">🎈 <b>Balon Idul Adha:</b> jika jagal menangkapmu, balon-balon mengikat domba dan mengangkatnya ke atas; tali pun putus dan ia lanjut berlari. Satu balon terpakai setiap kali.</div>\n      <div class=\"item\" style=\"margin-top:12px\"><div class=\"pic\">🎈</div><div class=\"grow\"><b>Balon Idul Adha</b><small>Kamu punya: {0} 🎈<br>Bisa dibeli dengan semanggi hari ini: {1} dari 2</small></div>{2}</div>\n      <div class=\"item\"><div class=\"pic\">📺</div><div class=\"grow\"><b>Balon dengan iklan</b><small>{3}</small></div><button class=\"btn small orange\" data-ad=\"1\" {4}>Tonton iklan</button></div>",
+  "tr": "<div class=\"story\">🎈 <b>Bayram Balonu:</b> kasap seni yakalarsa balonlar koyuna bağlanır ve onu yukarı kaldırır; ip kopar ve koşmaya devam eder. Her seferinde bir balon harcanır.</div>\n      <div class=\"item\" style=\"margin-top:12px\"><div class=\"pic\">🎈</div><div class=\"grow\"><b>Bayram Balonu</b><small>Elindeki: {0} 🎈<br>Bugün yonca ile alınabilir: 2 hakkın {1}’i</small></div>{2}</div>\n      <div class=\"item\"><div class=\"pic\">📺</div><div class=\"grow\"><b>Reklam karşılığı balon</b><small>{3}</small></div><button class=\"btn small orange\" data-ad=\"1\" {4}>Reklam izle</button></div>",
+  "fr": "<div class=\"story\">🎈 <b>Ballon de l'Aïd :</b> si le boucher vous attrape, des ballons s'attachent au mouton et l'emportent dans les airs ; il casse la corde et continue de courir. Un ballon est utilisé à chaque fois.</div>\n      <div class=\"item\" style=\"margin-top:12px\"><div class=\"pic\">🎈</div><div class=\"grow\"><b>Ballon de l'Aïd</b><small>Vous en avez : {0} 🎈<br>Achetables avec des trèfles aujourd'hui : {1} sur 2</small></div>{2}</div>\n      <div class=\"item\"><div class=\"pic\">📺</div><div class=\"grow\"><b>Ballon contre une pub</b><small>{3}</small></div><button class=\"btn small orange\" data-ad=\"1\" {4}>Voir la pub</button></div>",
+  "ur": "<div class=\"story\">🎈 <b>عید کا غبارہ:</b> اگر قصائی نے آپ کو پکڑ لیا تو غبارے دنبے کو باندھ کر اوپر اڑا لے جاتے ہیں؛ وہ رسی توڑ کر دوڑتا رہتا ہے۔ ہر بار ایک غبارہ استعمال ہوتا ہے۔</div>\n      <div class=\"item\" style=\"margin-top:12px\"><div class=\"pic\">🎈</div><div class=\"grow\"><b>عید کا غبارہ</b><small>آپ کے پاس: {0} 🎈<br>آج برسیم سے خریدے جا سکتے ہیں: 2 میں سے {1}</small></div>{2}</div>\n      <div class=\"item\"><div class=\"pic\">📺</div><div class=\"grow\"><b>اشتہار کے بدلے غبارہ</b><small>{3}</small></div><button class=\"btn small orange\" data-ad=\"1\" {4}>اشتہار دیکھیں</button></div>",
+  "bn": "<div class=\"story\">🎈 <b>ঈদের বেলুন:</b> কসাই ধরে ফেললে বেলুন ভেড়াকে বেঁধে ওপরে উড়িয়ে নেয়; সে দড়ি ছিঁড়ে আবার দৌড়াতে থাকে। প্রতিবার একটি বেলুন খরচ হয়।</div>\n      <div class=\"item\" style=\"margin-top:12px\"><div class=\"pic\">🎈</div><div class=\"grow\"><b>ঈদের বেলুন</b><small>আপনার আছে: {0} 🎈<br>আজ ক্লোভার দিয়ে কেনা যাবে: ২-এর মধ্যে {1}</small></div>{2}</div>\n      <div class=\"item\"><div class=\"pic\">📺</div><div class=\"grow\"><b>বিজ্ঞাপনের বদলে বেলুন</b><small>{3}</small></div><button class=\"btn small orange\" data-ad=\"1\" {4}>বিজ্ঞাপন দেখুন</button></div>"
+ },
+ "<div class=\"story\">🎒 <b>تعزيزات الجولة:</b> تُستهلك واحدة من كل نوع تلقائيًا في بداية الجولة التالية.</div>": {
+  "en": "<div class=\"story\">🎒 <b>Round boosts:</b> one of each kind is used automatically at the start of the next round.</div>",
+  "id": "<div class=\"story\">🎒 <b>Penguat ronde:</b> satu dari tiap jenis dipakai otomatis di awal ronde berikutnya.</div>",
+  "tr": "<div class=\"story\">🎒 <b>Tur destekleri:</b> her türden biri sonraki turun başında otomatik kullanılır.</div>",
+  "fr": "<div class=\"story\">🎒 <b>Boosts de partie :</b> un de chaque type est utilisé automatiquement au début de la prochaine partie.</div>",
+  "ur": "<div class=\"story\">🎒 <b>راؤنڈ کی مدد:</b> ہر قسم میں سے ایک اگلے راؤنڈ کے آغاز پر خود بخود استعمال ہوتی ہے۔</div>",
+  "bn": "<div class=\"story\">🎒 <b>রাউন্ডের সহায়ক:</b> প্রতিটি ধরনের একটি করে পরের রাউন্ডের শুরুতে নিজে থেকেই ব্যবহার হয়।</div>"
+ },
+ "<div class=\"item\" style=\"margin-top:10px\"><div class=\"pic\">{0}</div><div class=\"grow\"><b>{1}</b><small>{2}<br>لديك: {3}</small></div><button class=\"btn small blue\" data-boost=\"{4}\" {5}>{6} 🍀</button></div>": {
+  "en": "<div class=\"item\" style=\"margin-top:10px\"><div class=\"pic\">{0}</div><div class=\"grow\"><b>{1}</b><small>{2}<br>You have: {3}</small></div><button class=\"btn small blue\" data-boost=\"{4}\" {5}>{6} 🍀</button></div>",
+  "id": "<div class=\"item\" style=\"margin-top:10px\"><div class=\"pic\">{0}</div><div class=\"grow\"><b>{1}</b><small>{2}<br>Kamu punya: {3}</small></div><button class=\"btn small blue\" data-boost=\"{4}\" {5}>{6} 🍀</button></div>",
+  "tr": "<div class=\"item\" style=\"margin-top:10px\"><div class=\"pic\">{0}</div><div class=\"grow\"><b>{1}</b><small>{2}<br>Elindeki: {3}</small></div><button class=\"btn small blue\" data-boost=\"{4}\" {5}>{6} 🍀</button></div>",
+  "fr": "<div class=\"item\" style=\"margin-top:10px\"><div class=\"pic\">{0}</div><div class=\"grow\"><b>{1}</b><small>{2}<br>Vous en avez : {3}</small></div><button class=\"btn small blue\" data-boost=\"{4}\" {5}>{6} 🍀</button></div>",
+  "ur": "<div class=\"item\" style=\"margin-top:10px\"><div class=\"pic\">{0}</div><div class=\"grow\"><b>{1}</b><small>{2}<br>آپ کے پاس: {3}</small></div><button class=\"btn small blue\" data-boost=\"{4}\" {5}>{6} 🍀</button></div>",
+  "bn": "<div class=\"item\" style=\"margin-top:10px\"><div class=\"pic\">{0}</div><div class=\"grow\"><b>{1}</b><small>{2}<br>আপনার আছে: {3}</small></div><button class=\"btn small blue\" data-boost=\"{4}\" {5}>{6} 🍀</button></div>"
+ },
+ "مرتدي ✓": {
+  "en": "Equipped ✓",
+  "id": "Dipakai ✓",
+  "tr": "Giyildi ✓",
+  "fr": "Équipé ✓",
+  "ur": "پہنا ہوا ✓",
+  "bn": "পরা আছে ✓"
+ },
+ "ارتدِ": {
+  "en": "Equip",
+  "id": "Pakai",
+  "tr": "Giy",
+  "fr": "Équiper",
+  "ur": "پہنیں",
+  "bn": "পরুন"
+ },
+ "<button class=\"btn small orange\" disabled>أقصى مستوى</button>": {
+  "en": "<button class=\"btn small orange\" disabled>Max level</button>",
+  "id": "<button class=\"btn small orange\" disabled>Level maks</button>",
+  "tr": "<button class=\"btn small orange\" disabled>Maks. seviye</button>",
+  "fr": "<button class=\"btn small orange\" disabled>Niveau max</button>",
+  "ur": "<button class=\"btn small orange\" disabled>اعلیٰ ترین سطح</button>",
+  "bn": "<button class=\"btn small orange\" disabled>সর্বোচ্চ লেভেল</button>"
+ },
+ "🎈 حصلت على بالونة!": {
+  "en": "🎈 You got a balloon!",
+  "id": "🎈 Kamu dapat balon!",
+  "tr": "🎈 Bir balon kazandın!",
+  "fr": "🎈 Vous avez gagné un ballon !",
+  "ur": "🎈 آپ کو غبارہ مل گیا!",
+  "bn": "🎈 আপনি একটি বেলুন পেয়েছেন!"
+ },
+ "اشتريت {0} {1}": {
+  "en": "Bought {0} {1}",
+  "id": "Membeli {0} {1}",
+  "tr": "{0} {1} satın alındı",
+  "fr": "Acheté : {0} {1}",
+  "ur": "خریدا: {0} {1}",
+  "bn": "কেনা হলো: {0} {1}"
+ },
+ "🎈 اشتريت بالونة عيد": {
+  "en": "🎈 Bought an Eid balloon",
+  "id": "🎈 Membeli balon Idul Adha",
+  "tr": "🎈 Bayram balonu satın alındı",
+  "fr": "🎈 Ballon de l'Aïd acheté",
+  "ur": "🎈 عید کا غبارہ خریدا",
+  "bn": "🎈 ঈদের বেলুন কেনা হলো"
+ },
+ "تمت الترقية: {0} {1}": {
+  "en": "Upgraded: {0} {1}",
+  "id": "Ditingkatkan: {0} {1}",
+  "tr": "Yükseltildi: {0} {1}",
+  "fr": "Amélioré : {0} {1}",
+  "ur": "اپ گریڈ ہوا: {0} {1}",
+  "bn": "আপগ্রেড হলো: {0} {1}"
+ },
+ "🕹️ تظهر أزرار الحركة والقفز/التزحلق أسفل الشاشة (والسحب يعمل أيضاً).": {
+  "en": "🕹️ Move and jump/slide buttons appear at the bottom of the screen (swiping works too).",
+  "id": "🕹️ Tombol gerak dan lompat/seluncur muncul di bawah layar (geser juga bisa).",
+  "tr": "🕹️ Hareket ve zıpla/kay düğmeleri ekranın altında görünür (kaydırma da çalışır).",
+  "fr": "🕹️ Les boutons de déplacement et de saut/glissade apparaissent en bas de l'écran (le balayage fonctionne aussi).",
+  "ur": "🕹️ حرکت اور چھلانگ/پھسلنے کے بٹن اسکرین کے نیچے نظر آتے ہیں (انگلی پھیرنا بھی کام کرتا ہے)۔",
+  "bn": "🕹️ চলা এবং লাফ/স্লাইডের বোতাম পর্দার নিচে দেখা যায় (সোয়াইপও কাজ করে)।"
+ },
+ "👆 اسحب بإصبعك على الشاشة: يمين/يسار للمسار، أعلى للقفز، أسفل للتزحلق.": {
+  "en": "👆 Swipe on the screen: left/right to change lane, up to jump, down to slide.",
+  "id": "👆 Geser di layar: kiri/kanan untuk pindah jalur, atas untuk lompat, bawah untuk seluncur.",
+  "tr": "👆 Ekranda parmağını kaydır: şerit için sağa/sola, zıplamak için yukarı, kaymak için aşağı.",
+  "fr": "👆 Balayez l'écran : gauche/droite pour changer de voie, haut pour sauter, bas pour glisser.",
+  "ur": "👆 اسکرین پر انگلی پھیریں: دائیں/بائیں لین بدلنے کے لیے، اوپر چھلانگ کے لیے، نیچے پھسلنے کے لیے۔",
+  "bn": "👆 পর্দায় আঙুল টানুন: লেন বদলাতে ডানে/বাঁয়ে, লাফাতে ওপরে, স্লাইড করতে নিচে।"
+ },
+ " الموسيقى": {
+  "en": " Music",
+  "id": " Musik",
+  "tr": " Müzik",
+  "fr": " Musique",
+  "ur": " موسیقی",
+  "bn": " সংগীত"
+ },
+ " المؤثرات": {
+  "en": " Sound FX",
+  "id": " Efek suara",
+  "tr": " Ses efektleri",
+  "fr": " Effets sonores",
+  "ur": " آواز کے اثرات",
+  "bn": " শব্দের প্রভাব"
+ },
+ "الجولات": {
+  "en": "Rounds",
+  "id": "Ronde",
+  "tr": "Turlar",
+  "fr": "Parties",
+  "ur": "راؤنڈ",
+  "bn": "রাউন্ড"
+ },
+ "أعلى نقاط": {
+  "en": "High score",
+  "id": "Skor tertinggi",
+  "tr": "En yüksek puan",
+  "fr": "Meilleur score",
+  "ur": "سب سے زیادہ اسکور",
+  "bn": "সর্বোচ্চ স্কোর"
+ },
+ "أطول مسافة": {
+  "en": "Longest distance",
+  "id": "Jarak terjauh",
+  "tr": "En uzun mesafe",
+  "fr": "Distance la plus longue",
+  "ur": "سب سے طویل فاصلہ",
+  "bn": "দীর্ঘতম দূরত্ব"
+ },
+ "مجموع المسافات": {
+  "en": "Total distance",
+  "id": "Total jarak",
+  "tr": "Toplam mesafe",
+  "fr": "Distance totale",
+  "ur": "کل فاصلہ",
+  "bn": "মোট দূরত্ব"
+ },
+ "برسيم جُمع": {
+  "en": "Clovers collected",
+  "id": "Semanggi terkumpul",
+  "tr": "Toplanan yonca",
+  "fr": "Trèfles ramassés",
+  "ur": "جمع کیے گئے برسیم",
+  "bn": "সংগৃহীত ক্লোভার"
+ },
+ "ذرة سحرية": {
+  "en": "Magic corn",
+  "id": "Jagung ajaib",
+  "tr": "Sihirli mısır",
+  "fr": "Maïs magique",
+  "ur": "جادوئی مکئی",
+  "bn": "জাদুর ভুট্টা"
+ },
+ "أطول تجنب متتالٍ": {
+  "en": "Longest dodge streak",
+  "id": "Rentetan hindar terpanjang",
+  "tr": "En uzun kaçış serisi",
+  "fr": "Plus longue série d'esquives",
+  "ur": "بچنے کی سب سے لمبی لڑی",
+  "bn": "দীর্ঘতম এড়ানোর ধারা"
+ },
+ "الرتبة": {
+  "en": "Rank",
+  "id": "Peringkat",
+  "tr": "Rütbe",
+  "fr": "Rang",
+  "ur": "درجہ",
+  "bn": "র‍্যাঙ্ক"
+ },
+ "🏅 إنجاز جديد: {0} (+50 🍀)": {
+  "en": "🏅 New achievement: {0} (+50 🍀)",
+  "id": "🏅 Pencapaian baru: {0} (+50 🍀)",
+  "tr": "🏅 Yeni başarı: {0} (+50 🍀)",
+  "fr": "🏅 Nouveau succès : {0} (+50 🍀)",
+  "ur": "🏅 نئی کامیابی: {0} (+50 🍀)",
+  "bn": "🏅 নতুন অর্জন: {0} (+৫০ 🍀)"
+ },
+ "اضغط رجوع مرة أخرى للخروج": {
+  "en": "Press back again to exit",
+  "id": "Tekan kembali sekali lagi untuk keluar",
+  "tr": "Çıkmak için tekrar geri bas",
+  "fr": "Appuyez encore sur retour pour quitter",
+  "ur": "باہر نکلنے کے لیے دوبارہ بیک دبائیں",
+  "bn": "বের হতে আবার ব্যাক চাপুন"
+ },
+ "حذف كل التقدم وبدء لعبة جديدة": {
+  "en": "Delete all progress and start a new game",
+  "id": "Hapus semua kemajuan dan mulai permainan baru",
+  "tr": "Tüm ilerlemeyi sil ve yeni oyun başlat",
+  "fr": "Supprimer toute la progression et recommencer une nouvelle partie",
+  "ur": "تمام پیش رفت مٹا کر نیا کھیل شروع کریں",
+  "bn": "সব অগ্রগতি মুছে নতুন খেলা শুরু করুন"
+ },
+ "تم حذف التقدم": {
+  "en": "Progress deleted",
+  "id": "Kemajuan dihapus",
+  "tr": "İlerleme silindi",
+  "fr": "Progression supprimée",
+  "ur": "پیش رفت مٹا دی گئی",
+  "bn": "অগ্রগতি মুছে ফেলা হয়েছে"
+ },
+ "⚠️ اضغط مرة أخرى خلال 3 ثوانٍ للتأكيد": {
+  "en": "⚠️ Press again within 3 seconds to confirm",
+  "id": "⚠️ Tekan lagi dalam 3 detik untuk konfirmasi",
+  "tr": "⚠️ Onaylamak için 3 saniye içinde tekrar bas",
+  "fr": "⚠️ Appuyez à nouveau dans les 3 secondes pour confirmer",
+  "ur": "⚠️ تصدیق کے لیے 3 سیکنڈ کے اندر دوبارہ دبائیں",
+  "bn": "⚠️ নিশ্চিত করতে ৩ সেকেন্ডের মধ্যে আবার চাপুন"
+ },
+ "مرحباً، أتواصل معكم بخصوص لعبة هروب خروف العيد 🐑": {
+  "en": "Hello, I'm contacting you about the game Eid Sheep Escape 🐑",
+  "id": "Halo, saya menghubungi Anda terkait game Pelarian Domba Idul Adha 🐑",
+  "tr": "Merhaba, Kurban Bayramı Koyunu Kaçıyor oyunuyla ilgili yazıyorum 🐑",
+  "fr": "Bonjour, je vous contacte au sujet du jeu Évasion du Mouton de l'Aïd 🐑",
+  "ur": "السلام علیکم، میں آپ سے کھیل «عید کے دنبے کا فرار» کے بارے میں رابطہ کر رہا ہوں 🐑",
+  "bn": "আসসালামু আলাইকুম, আমি «ঈদের ভেড়ার পলায়ন» খেলাটি নিয়ে যোগাযোগ করছি 🐑"
+ },
+ "تعذر فتح واتساب": {
+  "en": "Couldn't open WhatsApp",
+  "id": "Tidak bisa membuka WhatsApp",
+  "tr": "WhatsApp açılamadı",
+  "fr": "Impossible d'ouvrir WhatsApp",
+  "ur": "واٹس ایپ نہیں کھل سکا",
+  "bn": "হোয়াটসঅ্যাপ খোলা যায়নি"
+ },
+ "+{0} 🍀 تضاعف برسيمك!": {
+  "en": "+{0} 🍀 Your clovers doubled!",
+  "id": "+{0} 🍀 Semanggimu berlipat ganda!",
+  "tr": "+{0} 🍀 Yoncan ikiye katlandı!",
+  "fr": "+{0} 🍀 Vos trèfles ont doublé !",
+  "ur": "+{0} 🍀 آپ کے برسیم دگنے ہو گئے!",
+  "bn": "+{0} 🍀 আপনার ক্লোভার দ্বিগুণ হলো!"
+ },
+ "🌶️ انتهى الطيران!": {
+  "en": "🌶️ Flight over!",
+  "id": "🌶️ Terbang selesai!",
+  "tr": "🌶️ Uçuş bitti!",
+  "fr": "🌶️ Fin du vol !",
+  "ur": "🌶️ اڑان ختم!",
+  "bn": "🌶️ উড়াল শেষ!"
+ },
+ "⚠️ هبوط بعد {0}": {
+  "en": "⚠️ Landing in {0}",
+  "id": "⚠️ Mendarat dalam {0}",
+  "tr": "⚠️ {0} sonra iniş",
+  "fr": "⚠️ Atterrissage dans {0}",
+  "ur": "⚠️ {0} بعد لینڈنگ",
+  "bn": "⚠️ {0} পরে অবতরণ"
+ },
+ "🌽 مغناطيس!": {
+  "en": "🌽 Magnet!",
+  "id": "🌽 Magnet!",
+  "tr": "🌽 Mıknatıs!",
+  "fr": "🌽 Aimant !",
+  "ur": "🌽 مقناطیس!",
+  "bn": "🌽 চুম্বক!"
+ },
+ "🌶️ طيران {0} ثانية!": {
+  "en": "🌶️ Flying for {0} seconds!",
+  "id": "🌶️ Terbang {0} detik!",
+  "tr": "🌶️ {0} saniye uçuş!",
+  "fr": "🌶️ Vol de {0} secondes !",
+  "ur": "🌶️ {0} سیکنڈ کی اڑان!",
+  "bn": "🌶️ {0} সেকেন্ড উড়াল!"
+ },
+ "🧿 درع!": {
+  "en": "🧿 Shield!",
+  "id": "🧿 Perisai!",
+  "tr": "🧿 Kalkan!",
+  "fr": "🧿 Bouclier !",
+  "ur": "🧿 ڈھال!",
+  "bn": "🧿 ঢাল!"
+ },
+ "⭐ نقاط ×2": {
+  "en": "⭐ Score ×2",
+  "id": "⭐ Skor ×2",
+  "tr": "⭐ Puan ×2",
+  "fr": "⭐ Score ×2",
+  "ur": "⭐ اسکور ×2",
+  "bn": "⭐ স্কোর ×২"
+ },
+ "😅 تعثرت بالكلب!": {
+  "en": "😅 You tripped over the dog!",
+  "id": "😅 Kamu tersandung anjing!",
+  "tr": "😅 Köpeğe takıldın!",
+  "fr": "😅 Vous avez trébuché sur le chien !",
+  "ur": "😅 آپ کتے سے ٹکرا کر لڑکھڑا گئے!",
+  "bn": "😅 আপনি কুকুরে হোঁচট খেলেন!"
+ },
+ "😅 تعثرت بالقطة!": {
+  "en": "😅 You tripped over the cat!",
+  "id": "😅 Kamu tersandung kucing!",
+  "tr": "😅 Kediye takıldın!",
+  "fr": "😅 Vous avez trébuché sur le chat !",
+  "ur": "😅 آپ بلی سے ٹکرا کر لڑکھڑا گئے!",
+  "bn": "😅 আপনি বিড়ালে হোঁচট খেলেন!"
+ },
+ "🧿 صدّ الضربة!": {
+  "en": "🧿 Blocked the hit!",
+  "id": "🧿 Pukulan tertahan!",
+  "tr": "🧿 Darbe engellendi!",
+  "fr": "🧿 Coup paré !",
+  "ur": "🧿 وار روک لیا!",
+  "bn": "🧿 আঘাত ঠেকিয়ে দিলেন!"
+ },
+ "احترس! الجزار قريب 😱": {
+  "en": "Watch out! The butcher is close 😱",
+  "id": "Awas! Si jagal dekat 😱",
+  "tr": "Dikkat! Kasap yakında 😱",
+  "fr": "Attention ! Le boucher est tout près 😱",
+  "ur": "خبردار! قصائی قریب ہے 😱",
+  "bn": "সাবধান! কসাই কাছেই 😱"
+ },
+ "🐶 هو هو!": {
+  "en": "🐶 Woof woof!",
+  "id": "🐶 Guk guk!",
+  "tr": "🐶 Hav hav!",
+  "fr": "🐶 Ouaf ouaf !",
+  "ur": "🐶 بھو بھو!",
+  "bn": "🐶 ঘেউ ঘেউ!"
+ },
+ "🐱 مياو!": {
+  "en": "🐱 Meow!",
+  "id": "🐱 Meong!",
+  "tr": "🐱 Miyav!",
+  "fr": "🐱 Miaou !",
+  "ur": "🐱 میاؤں!",
+  "bn": "🐱 মিয়াউ!"
+ },
+ "تعالَ يا خروف! 🔪": {
+  "en": "Come here, sheep! 🔪",
+  "id": "Sini, domba! 🔪",
+  "tr": "Gel buraya koyun! 🔪",
+  "fr": "Viens ici, mouton ! 🔪",
+  "ur": "ادھر آ دنبے! 🔪",
+  "bn": "এদিকে আয় ভেড়া! 🔪"
+ },
+ "مدبح الجزار بسيوني": {
+  "en": "Butcher Bassy's Slaughterhouse",
+  "id": "Rumah Potong Pak Jagal",
+  "tr": "Kasap Beşir’in Mezbahası",
+  "fr": "Abattoir de Bassou le Boucher",
+  "ur": "بشیر قصائی کا مذبح خانہ",
+  "bn": "কসাই বশিরের কসাইখানা"
+ },
+ "ماااع! لازم أهرب 😰": {
+  "en": "Baaah! I gotta run! 😰",
+  "id": "Mbeee! Aku harus kabur! 😰",
+  "tr": "Meee! Kaçmam lazım! 😰",
+  "fr": "Bêêê ! Il faut que je file ! 😰",
+  "ur": "بیں بیں! مجھے بھاگنا ہوگا! 😰",
+  "bn": "ভ্যাঁ ভ্যাঁ! আমাকে পালাতে হবে! 😰"
+ },
+ "هااااا!! 💪": {
+  "en": "Haaaa!! 💪",
+  "id": "Haaaa!! 💪",
+  "tr": "Haaaa!! 💪",
+  "fr": "Haaaa !! 💪",
+  "ur": "ہاااا!! 💪",
+  "bn": "হাআআআ!! 💪"
+ },
+ "هروب! 🐑💨": {
+  "en": "ESCAPE! 🐑💨",
+  "id": "KABUR! 🐑💨",
+  "tr": "KAÇIŞ! 🐑💨",
+  "fr": "ÉVASION ! 🐑💨",
+  "ur": "فرار! 🐑💨",
+  "bn": "পলায়ন! 🐑💨"
+ },
+ "اضغط للتخطي ⏭": {
+  "en": "Tap to skip ⏭",
+  "id": "Ketuk untuk lewati ⏭",
+  "tr": "Geçmek için dokun ⏭",
+  "fr": "Touchez pour passer ⏭",
+  "ur": "چھوڑنے کے لیے ٹچ کریں ⏭",
+  "bn": "এড়াতে ট্যাপ করুন ⏭"
+ },
+ "باااع! 😭": {
+  "en": "Baaaah! 😭",
+  "id": "Mbeeeee! 😭",
+  "tr": "Meeeee! 😭",
+  "fr": "Bêêêêê ! 😭",
+  "ur": "بیںںںں! 😭",
+  "bn": "ভ্যাঁআআআ! 😭"
+ },
+ "مسكتك!": {
+  "en": "Gotcha!",
+  "id": "Kena kau!",
+  "tr": "Yakaladım seni!",
+  "fr": "Je t'ai eu !",
+  "ur": "پکڑ لیا تجھے!",
+  "bn": "ধরে ফেলেছি!"
+ },
+ "وهعملك كفتة! 🍖": {
+  "en": "I'm gonna make kofta out of you! 🍖",
+  "id": "Kujadikan kamu kofta! 🍖",
+  "tr": "Seni köfte yapacağım! 🍖",
+  "fr": "Je vais te faire des boulettes ! 🍖",
+  "ur": "تیرے کباب بنا دوں گا! 🍖",
+  "bn": "তোকে কোফতা বানিয়ে ছাড়ব! 🍖"
+ },
+ "طَخّ!": {
+  "en": "Thud!",
+  "id": "Bruk!",
+  "tr": "Küt!",
+  "fr": "Pan !",
+  "ur": "دھم!",
+  "bn": "ধপ!"
+ },
+ "إيه ده؟! 😲": {
+  "en": "What the—?! 😲",
+  "id": "Apa itu?! 😲",
+  "tr": "Ne oluyor?! 😲",
+  "fr": "C'est quoi ça ?! 😲",
+  "ur": "یہ کیا؟! 😲",
+  "bn": "এটা কী?! 😲"
+ },
+ "باااع! أنا بطير! 🎈": {
+  "en": "Baaah! I'm flying! 🎈",
+  "id": "Mbeee! Aku terbang! 🎈",
+  "tr": "Meee! Uçuyorum! 🎈",
+  "fr": "Bêêê ! Je vole ! 🎈",
+  "ur": "بیں! میں اڑ رہا ہوں! 🎈",
+  "bn": "ভ্যাঁ! আমি উড়ছি! 🎈"
+ },
+ "يا خروف يا غدّار! 😡": {
+  "en": "You sneaky sheep! 😡",
+  "id": "Domba licik! 😡",
+  "tr": "Seni sinsi koyun! 😡",
+  "fr": "Sale mouton rusé ! 😡",
+  "ur": "چالاک دنبے! 😡",
+  "bn": "চালাক ভেড়া! 😡"
+ },
+ "بالونات العيد! 🎈": {
+  "en": "Eid balloons! 🎈",
+  "id": "Balon Idul Adha! 🎈",
+  "tr": "Bayram balonları! 🎈",
+  "fr": "Les ballons de l'Aïd ! 🎈",
+  "ur": "عید کے غبارے! 🎈",
+  "bn": "ঈদের বেলুন! 🎈"
+ },
+ "هرب الخروف! 🚀": {
+  "en": "The sheep escaped! 🚀",
+  "id": "Dombanya kabur! 🚀",
+  "tr": "Koyun kaçtı! 🚀",
+  "fr": "Le mouton s'est échappé ! 🚀",
+  "ur": "دنبہ بھاگ گیا! 🚀",
+  "bn": "ভেড়া পালিয়েছে! 🚀"
+ },
+ "إغلاق": {
+  "en": "Close",
+  "id": "Tutup",
+  "tr": "Kapat",
+  "fr": "Fermer",
+  "ur": "بند کریں",
+  "bn": "বন্ধ"
+ },
+ "🎈 استلم البالونة": {
+  "en": "🎈 Claim the balloon",
+  "id": "🎈 Ambil balonnya",
+  "tr": "🎈 Balonu al",
+  "fr": "🎈 Récupérer le ballon",
+  "ur": "🎈 غبارہ لیں",
+  "bn": "🎈 বেলুন নিন"
+ },
+ " م": {
+  "en": " m",
+  "id": " m",
+  "tr": " m",
+  "fr": " m",
+  "ur": " م",
+  "bn": " মি"
+ },
+ "🟢 نقاط هذه الجولة": {
+  "en": "🟢 This round's points",
+  "id": "🟢 Poin ronde ini",
+  "tr": "🟢 Bu turun puanı",
+  "fr": "🟢 Points de cette partie",
+  "ur": "🟢 اس راؤنڈ کے پوائنٹ",
+  "bn": "🟢 এই রাউন্ডের পয়েন্ট"
+ },
+ "🎉 رقم قياسي جديد! أسطورة الهروب!": {
+  "en": "🎉 New record! Escape legend!",
+  "id": "🎉 Rekor baru! Legenda pelarian!",
+  "tr": "🎉 Yeni rekor! Kaçış efsanesi!",
+  "fr": "🎉 Nouveau record ! Légende de l'évasion !",
+  "ur": "🎉 نیا ریکارڈ! فرار کی داستان!",
+  "bn": "🎉 নতুন রেকর্ড! পলায়নের কিংবদন্তি!"
+ },
+ "🏆 أعلى نقاط سابقة: ": {
+  "en": "🏆 Previous high score: ",
+  "id": "🏆 Skor tertinggi sebelumnya: ",
+  "tr": "🏆 Önceki en yüksek puan: ",
+  "fr": "🏆 Meilleur score précédent : ",
+  "ur": "🏆 پچھلا سب سے زیادہ اسکور: ",
+  "bn": "🏆 আগের সর্বোচ্চ স্কোর: "
+ },
+ "المسافة {0}م  ·  برسيم {1} 🍀": {
+  "en": "Distance {0} m  ·  Clovers {1} 🍀",
+  "id": "Jarak {0} m  ·  Semanggi {1} 🍀",
+  "tr": "Mesafe {0} m  ·  Yonca {1} 🍀",
+  "fr": "Distance {0} m  ·  Trèfles {1} 🍀",
+  "ur": "فاصلہ {0} م  ·  برسیم {1} 🍀",
+  "bn": "দূরত্ব {0} মি  ·  ক্লোভার {1} 🍀"
+ },
+ "🎒 استُخدمت التعزيزات: ": {
+  "en": "🎒 Boosts used: ",
+  "id": "🎒 Penguat terpakai: ",
+  "tr": "🎒 Kullanılan destekler: ",
+  "fr": "🎒 Boosts utilisés : ",
+  "ur": "🎒 استعمال ہونے والی مدد: ",
+  "bn": "🎒 ব্যবহৃত সহায়ক: "
+ },
+ "🎈 استخدم بالونة وأكمل الهروب (لديك {0})": {
+  "en": "🎈 Use a balloon and keep escaping (you have {0})",
+  "id": "🎈 Pakai balon dan lanjut kabur (kamu punya {0})",
+  "tr": "🎈 Balon kullan ve kaçmaya devam et (elinde {0} var)",
+  "fr": "🎈 Utiliser un ballon et continuer à fuir (vous en avez {0})",
+  "ur": "🎈 غبارہ استعمال کریں اور بھاگتے رہیں (آپ کے پاس {0} ہیں)",
+  "bn": "🎈 বেলুন ব্যবহার করে পালাতে থাকুন (আপনার আছে {0}টি)"
+ },
+ "📺 ضاعف البرسيم (+{0} 🍀) بمشاهدة إعلان": {
+  "en": "📺 Double your clovers (+{0} 🍀) by watching an ad",
+  "id": "📺 Gandakan semanggimu (+{0} 🍀) dengan menonton iklan",
+  "tr": "📺 Reklam izleyerek yoncanı ikiye katla (+{0} 🍀)",
+  "fr": "📺 Doublez vos trèfles (+{0} 🍀) en regardant une pub",
+  "ur": "📺 اشتہار دیکھ کر اپنے برسیم دگنے کریں (+{0} 🍀)",
+  "bn": "📺 বিজ্ঞাপন দেখে ক্লোভার দ্বিগুণ করুন (+{0} 🍀)"
+ },
+ "👀 الخروف يراقب الجزار بحذر شديد...": {
+  "en": "👀 The sheep is watching the butcher very carefully...",
+  "id": "👀 Si domba mengawasi jagal dengan sangat waspada...",
+  "tr": "👀 Koyun kasabı çok dikkatle izliyor...",
+  "fr": "👀 Le mouton observe le boucher avec une grande prudence...",
+  "ur": "👀 دنبہ قصائی کو بڑی احتیاط سے دیکھ رہا ہے...",
+  "bn": "👀 ভেড়া খুব সতর্কভাবে কসাইকে লক্ষ করছে..."
+ },
+ "بيخطط لخطة هروب تاريخية من المدبح...": {
+  "en": "Planning a historic escape from the slaughterhouse...",
+  "id": "Menyusun rencana pelarian bersejarah dari rumah potong...",
+  "tr": "Mezbahadan tarihi bir kaçış planı yapıyor...",
+  "fr": "Prépare une évasion historique de l'abattoir...",
+  "ur": "مذبح خانے سے ایک تاریخی فرار کا منصوبہ بنا رہا ہے...",
+  "bn": "কসাইখানা থেকে ঐতিহাসিক পলায়নের পরিকল্পনা করছে..."
+ },
+ "🎈 الخروف بيحاول ينفخ البالونات للهروب...": {
+  "en": "🎈 The sheep is trying to blow up the balloons to escape...",
+  "id": "🎈 Si domba mencoba meniup balon untuk kabur...",
+  "tr": "🎈 Koyun kaçmak için balonları şişirmeye çalışıyor...",
+  "fr": "🎈 Le mouton essaie de gonfler les ballons pour s'échapper...",
+  "ur": "🎈 دنبہ فرار کے لیے غبارے پھلانے کی کوشش کر رہا ہے...",
+  "bn": "🎈 ভেড়া পালানোর জন্য বেলুন ফোলানোর চেষ্টা করছে..."
+ },
+ "🚀 كل شيء جاهز.. انطلاق!": {
+  "en": "🚀 Everything's ready.. go!",
+  "id": "🚀 Semua siap.. meluncur!",
+  "tr": "🚀 Her şey hazır.. başla!",
+  "fr": "🚀 Tout est prêt.. c'est parti !",
+  "ur": "🚀 سب کچھ تیار ہے.. روانہ!",
+  "bn": "🚀 সব প্রস্তুত.. রওনা!"
+ },
+ "🐑 الخروف بيعمل إحماء قبل الماراثون...": {
+  "en": "🐑 The sheep is warming up before the marathon...",
+  "id": "🐑 Si domba pemanasan sebelum maraton...",
+  "tr": "🐑 Koyun maraton öncesi ısınıyor...",
+  "fr": "🐑 Le mouton s'échauffe avant le marathon...",
+  "ur": "🐑 دنبہ میراتھن سے پہلے وارم اپ کر رہا ہے...",
+  "bn": "🐑 ভেড়া ম্যারাথনের আগে ওয়ার্ম-আপ করছে..."
+ },
+ "🔪 الجزار بيسن السكينة.. والخروف بيسن رجليه!": {
+  "en": "🔪 The butcher is sharpening his knife.. and the sheep is sharpening his legs!",
+  "id": "🔪 Si jagal mengasah pisau.. dan si domba mengasah kakinya!",
+  "tr": "🔪 Kasap bıçağını bileyliyor.. koyun da bacaklarını!",
+  "fr": "🔪 Le boucher aiguise son couteau.. et le mouton ses jambes !",
+  "ur": "🔪 قصائی چھری تیز کر رہا ہے.. اور دنبہ اپنی ٹانگیں!",
+  "bn": "🔪 কসাই ছুরিতে শান দিচ্ছে.. আর ভেড়া তার পায়ে!"
+ },
+ "🌿 جاري تجهيز البرسيم والبالونات...": {
+  "en": "🌿 Getting the clovers and balloons ready...",
+  "id": "🌿 Menyiapkan semanggi dan balon...",
+  "tr": "🌿 Yonca ve balonlar hazırlanıyor...",
+  "fr": "🌿 Préparation des trèfles et des ballons...",
+  "ur": "🌿 برسیم اور غبارے تیار ہو رہے ہیں...",
+  "bn": "🌿 ক্লোভার আর বেলুন প্রস্তুত হচ্ছে..."
+ },
+ "😎 الخروف لبس النضارة.. جاهز للهروب!": {
+  "en": "😎 The sheep put on his sunglasses.. ready to escape!",
+  "id": "😎 Si domba pakai kacamata hitam.. siap kabur!",
+  "tr": "😎 Koyun güneş gözlüğünü taktı.. kaçmaya hazır!",
+  "fr": "😎 Le mouton a mis ses lunettes.. prêt à s'évader !",
+  "ur": "😎 دنبے نے چشمہ پہن لیا.. فرار کے لیے تیار!",
+  "bn": "😎 ভেড়া রোদচশমা পরেছে.. পালানোর জন্য তৈরি!"
+ },
+ "0 م": {
+  "en": "0 m",
+  "id": "0 m",
+  "tr": "0 m",
+  "fr": "0 m",
+  "ur": "0 م",
+  "bn": "০ মি"
+ },
+ "0م": {
+  "en": "0 m",
+  "id": "0 m",
+  "tr": "0 m",
+  "fr": "0 m",
+  "ur": "0 م",
+  "bn": "০ মি"
+ },
+ "أطول مسافة 🏃": {
+  "en": "Longest distance 🏃",
+  "id": "Jarak terjauh 🏃",
+  "tr": "En uzun mesafe 🏃",
+  "fr": "Distance la plus longue 🏃",
+  "ur": "سب سے طویل فاصلہ 🏃",
+  "bn": "দীর্ঘতম দূরত্ব 🏃"
+ },
+ "أعلى نقاط 🏆": {
+  "en": "High score 🏆",
+  "id": "Skor tertinggi 🏆",
+  "tr": "En yüksek puan 🏆",
+  "fr": "Meilleur score 🏆",
+  "ur": "سب سے زیادہ اسکور 🏆",
+  "bn": "সর্বোচ্চ স্কোর 🏆"
+ },
+ "إحدى ألعاب «لعبة في بريك» GameXBreak": {
+  "en": "A game from “Lo3bet fi Brek” · GameXBreak",
+  "id": "Salah satu game dari “Lo3bet fi Brek” · GameXBreak",
+  "tr": "“Lo3bet fi Brek” oyunlarından biri · GameXBreak",
+  "fr": "Un jeu de « Lo3bet fi Brek » · GameXBreak",
+  "ur": "«لعبۃ فی بریک» کے کھیلوں میں سے ایک · GameXBreak",
+  "bn": "«লুবাত ফি ব্রেক»-এর একটি খেলা · GameXBreak"
+ },
+ "إن أمسك بك الجزار استخدم «بالونة العيد» 🎈 من الدكان لتطير بعيداً وتكمل الجري.": {
+  "en": "If the butcher catches you, use an “Eid Balloon” 🎈 from the shop to fly away and keep running.",
+  "id": "Jika jagal menangkapmu, pakai “Balon Idul Adha” 🎈 dari toko untuk terbang menjauh dan lanjut berlari.",
+  "tr": "Kasap seni yakalarsa dükkandan bir “Bayram Balonu” 🎈 kullan, uç ve koşmaya devam et.",
+  "fr": "Si le boucher vous attrape, utilisez un « Ballon de l'Aïd » 🎈 de la boutique pour vous envoler et continuer à courir.",
+  "ur": "اگر قصائی نے پکڑ لیا تو دکان سے «عید کا غبارہ» 🎈 استعمال کریں، اڑ جائیں اور دوڑتے رہیں۔",
+  "bn": "কসাই ধরে ফেললে দোকান থেকে একটি «ঈদের বেলুন» 🎈 ব্যবহার করুন, উড়ে যান এবং দৌড়াতে থাকুন।"
+ },
+ "إن اصطدمت بعقبة اقترب منك الجزار. اصطدم مرة ثانية وهو قريب… وانتهت الحكاية!": {
+  "en": "If you hit an obstacle, the butcher gets closer. Hit another while he's near… and the story's over!",
+  "id": "Jika menabrak rintangan, jagal mendekat. Tabrak lagi saat dia dekat… tamatlah riwayatmu!",
+  "tr": "Bir engele çarparsan kasap yaklaşır. O yakınken bir daha çarparsan… hikâye biter!",
+  "fr": "Si vous heurtez un obstacle, le boucher se rapproche. Heurtez-en un autre alors qu'il est près… et c'est la fin de l'histoire !",
+  "ur": "اگر کسی رکاوٹ سے ٹکرائے تو قصائی قریب آ جاتا ہے۔ اس کے قریب ہوتے ہوئے دوبارہ ٹکرائے… تو کہانی ختم!",
+  "bn": "কোনো বাধায় ধাক্কা খেলে কসাই কাছে আসে। সে কাছে থাকতে আবার ধাক্কা খেলে… গল্প শেষ!"
+ },
+ "ابتعد عن العقبات وسيتراجع بعد قليل. 🏃": {
+  "en": "Stay away from obstacles and he'll fall back after a while. 🏃",
+  "id": "Jauhi rintangan dan dia akan mundur setelah beberapa saat. 🏃",
+  "tr": "Engellerden uzak dur, bir süre sonra geri çekilir. 🏃",
+  "fr": "Restez loin des obstacles et il reculera au bout d'un moment. 🏃",
+  "ur": "رکاوٹوں سے دور رہیں، وہ کچھ دیر بعد پیچھے ہٹ جائے گا۔ 🏃",
+  "bn": "বাধা থেকে দূরে থাকুন, কিছুক্ষণ পর সে পিছিয়ে যাবে। 🏃"
+ },
+ "اختر اللحن:": {
+  "en": "Choose a tune:",
+  "id": "Pilih nada:",
+  "tr": "Melodiyi seç:",
+  "fr": "Choisissez la mélodie :",
+  "ur": "دھن چنیں:",
+  "bn": "সুর বেছে নিন:"
+ },
+ "اختر خلال": {
+  "en": "Choose within",
+  "id": "Pilih dalam",
+  "tr": "Şu süre içinde seç:",
+  "fr": "Choisissez dans",
+  "ur": "اتنے وقت میں چنیں",
+  "bn": "এর মধ্যে বেছে নিন"
+ },
+ "ادخل كل يوم بلا انقطاع لتحصل على مكافأة أكبر. إن فاتك يوم يبدأ التتابع من جديد.": {
+  "en": "Come in every day without a break for a bigger reward. If you miss a day, the streak starts over.",
+  "id": "Masuklah setiap hari tanpa putus untuk hadiah lebih besar. Jika terlewat sehari, rentetan mulai dari awal.",
+  "tr": "Her gün ara vermeden gir, daha büyük ödül kazan. Bir gün kaçırırsan seri baştan başlar.",
+  "fr": "Connectez-vous chaque jour sans interruption pour une plus grosse récompense. Si vous manquez un jour, la série recommence.",
+  "ur": "زیادہ بڑے انعام کے لیے ہر روز بلا ناغہ آئیں۔ اگر ایک دن چھوٹ گیا تو لڑی دوبارہ شروع ہوگی۔",
+  "bn": "বেশি পুরস্কারের জন্য প্রতিদিন বিরতি ছাড়া আসুন। একদিন বাদ গেলে ধারা আবার প্রথম থেকে শুরু হবে।"
+ },
+ "البرسيم 🍀": {
+  "en": "Clovers 🍀",
+  "id": "Semanggi 🍀",
+  "tr": "Yonca 🍀",
+  "fr": "Trèfles 🍀",
+  "ur": "برسیم 🍀",
+  "bn": "ক্লোভার 🍀"
+ },
+ "التوكتوك:": {
+  "en": "Tuk-tuk:",
+  "id": "Tuk-tuk:",
+  "tr": "Tuk-tuk:",
+  "fr": "Tuk-tuk :",
+  "ur": "رکشہ:",
+  "bn": "সিএনজি/টুকটুক:"
+ },
+ "الجزار بسيوني خلفك! 🔪": {
+  "en": "Butcher Bassy is right behind you! 🔪",
+  "id": "Pak Jagal di belakangmu! 🔪",
+  "tr": "Kasap Beşir hemen arkanda! 🔪",
+  "fr": "Bassou le Boucher est juste derrière vous ! 🔪",
+  "ur": "بشیر قصائی آپ کے بالکل پیچھے ہے! 🔪",
+  "bn": "কসাই বশির আপনার ঠিক পেছনে! 🔪"
+ },
+ "الجزار يلتقط أنفاسه… 😅": {
+  "en": "The butcher is catching his breath… 😅",
+  "id": "Si jagal sedang mengatur napas… 😅",
+  "tr": "Kasap nefes alıyor… 😅",
+  "fr": "Le boucher reprend son souffle… 😅",
+  "ur": "قصائی سانس لے رہا ہے… 😅",
+  "bn": "কসাই দম নিচ্ছে… 😅"
+ },
+ "القطط والكلاب:": {
+  "en": "Cats and dogs:",
+  "id": "Kucing dan anjing:",
+  "tr": "Kediler ve köpekler:",
+  "fr": "Chats et chiens :",
+  "ur": "بلیاں اور کتے:",
+  "bn": "বিড়াল ও কুকুর:"
+ },
+ "المكافأة اليومية": {
+  "en": "Daily Reward",
+  "id": "Hadiah Harian",
+  "tr": "Günlük Ödül",
+  "fr": "Récompense quotidienne",
+  "ur": "روزانہ کا انعام",
+  "bn": "দৈনিক পুরস্কার"
+ },
+ "بُنيت كرتونياً بمناسبة عيد الأضحى المبارك 🐑 — كل عام وأنتم بخير!": {
+  "en": "Built in cartoon style for the blessed Eid al-Adha 🐑 — Eid Mubarak!",
+  "id": "Dibuat bergaya kartun untuk Idul Adha yang penuh berkah 🐑 — Selamat Idul Adha!",
+  "tr": "Mübarek Kurban Bayramı için çizgi film tarzında yapıldı 🐑 — Bayramınız mübarek olsun!",
+  "fr": "Réalisé en style dessin animé pour la bénie fête de l'Aïd 🐑 — Aïd Moubarak !",
+  "ur": "مبارک عید الاضحیٰ کے موقع پر کارٹون انداز میں بنایا گیا 🐑 — عید مبارک!",
+  "bn": "পবিত্র কোরবানির ঈদ উপলক্ষে কার্টুন ঢঙে তৈরি 🐑 — ঈদ মুবারক!"
+ },
+ "تتجدد التحديات كل يوم. أكملها واستلم البرسيم.": {
+  "en": "Challenges refresh every day. Complete them and claim your clovers.",
+  "id": "Tantangan diperbarui setiap hari. Selesaikan dan ambil semanggimu.",
+  "tr": "Görevler her gün yenilenir. Tamamla ve yoncanı al.",
+  "fr": "Les défis se renouvellent chaque jour. Terminez-les et récupérez vos trèfles.",
+  "ur": "چیلنج روزانہ نئے ہوتے ہیں۔ انہیں مکمل کریں اور برسیم حاصل کریں۔",
+  "bn": "চ্যালেঞ্জ প্রতিদিন নতুন হয়। সম্পূর্ণ করুন আর ক্লোভার নিন।"
+ },
+ "تحديات العيد": {
+  "en": "Eid Challenges",
+  "id": "Tantangan Idul Adha",
+  "tr": "Bayram Görevleri",
+  "fr": "Défis de l'Aïd",
+  "ur": "عید کے چیلنج",
+  "bn": "ঈদের চ্যালেঞ্জ"
+ },
+ "تظهر على الرصيف مع تحذير ⚠️ ثم تعبر الطريق — اقفز فوقها أو انتقل لمسار آخر قبل أن تصل.": {
+  "en": "They show up on the sidewalk with a warning ⚠️ then cross the road — jump over them or switch lanes before they arrive.",
+  "id": "Mereka muncul di trotoar dengan peringatan ⚠️ lalu menyeberang jalan — lompati atau pindah jalur sebelum tiba.",
+  "tr": "Kaldırımda uyarıyla ⚠️ belirir, sonra yolu geçerler — gelmeden üzerlerinden zıpla ya da şerit değiştir.",
+  "fr": "Ils apparaissent sur le trottoir avec un avertissement ⚠️ puis traversent la route — sautez par-dessus ou changez de voie avant qu'ils n'arrivent.",
+  "ur": "یہ فٹ پاتھ پر انتباہ ⚠️ کے ساتھ آتے ہیں پھر سڑک پار کرتے ہیں — ان کے آنے سے پہلے ان پر سے کودیں یا لین بدل لیں۔",
+  "bn": "এরা ফুটপাতে সতর্কতা ⚠️ সহ দেখা দেয়, তারপর রাস্তা পার হয় — আসার আগেই লাফিয়ে পার হন বা লেন বদলান।"
+ },
+ "تواصل معنا للاقتراحات": {
+  "en": "Contact us for suggestions",
+  "id": "Hubungi kami untuk saran",
+  "tr": "Önerileriniz için bize ulaşın",
+  "fr": "Contactez-nous pour vos suggestions",
+  "ur": "تجاویز کے لیے ہم سے رابطہ کریں",
+  "bn": "পরামর্শের জন্য আমাদের সাথে যোগাযোগ করুন"
+ },
+ "ثوانٍ…": {
+  "en": "seconds…",
+  "id": "detik…",
+  "tr": "saniye…",
+  "fr": "secondes…",
+  "ur": "سیکنڈ…",
+  "bn": "সেকেন্ড…"
+ },
+ "حبل عليه ملابس في الأعلى — تزحلق تحته (▼) ولا تقفز.": {
+  "en": "A rope with laundry on it, up high — slide under it (▼) and don't jump.",
+  "id": "Tali dengan jemuran di atas — seluncur di bawahnya (▼) dan jangan melompat.",
+  "tr": "Üstünde çamaşır asılı bir ip, yukarıda — altından kay (▼), zıplama.",
+  "fr": "Une corde avec du linge, en hauteur — glissez dessous (▼) et ne sautez pas.",
+  "ur": "اوپر ایک رسی جس پر کپڑے لٹکے ہیں — اس کے نیچے سے پھسلیں (▼) اور چھلانگ نہ لگائیں۔",
+  "bn": "ওপরে কাপড় ঝোলানো দড়ি — এর নিচ দিয়ে স্লাইড করুন (▼), লাফাবেন না।"
+ },
+ "حكاية هيركوليس:": {
+  "en": "The Tale of Hercules:",
+  "id": "Kisah Hercules:",
+  "tr": "Herkül’ün Hikâyesi:",
+  "fr": "L'histoire d'Hercule :",
+  "ur": "ہرکولیس کی کہانی:",
+  "bn": "হারকিউলিসের গল্প:"
+ },
+ "خروفنا الذكي فك الحبل وقرر هزم الجزار بسيوني! ساعده في الوثب والتزحلق وتجميع ثروة البرسيم والذرة والمغناطيس لشراء الأزياء من الدكان والتنكر! 🎪🕌": {
+  "en": "Our clever sheep slipped his rope and decided to beat Butcher Bassy! Help him jump, slide, and collect a fortune of clovers, corn and magnets to buy outfits from the shop and go in disguise! 🎪🕌",
+  "id": "Domba pintar kita melepas talinya dan memutuskan mengalahkan Pak Jagal! Bantu dia melompat, meluncur, dan mengumpulkan kekayaan semanggi, jagung, dan magnet untuk membeli kostum di toko dan menyamar! 🎪🕌",
+  "tr": "Akıllı koyunumuz ipini kopardı ve kasap Beşir’i yenmeye karar verdi! Zıplamasına, kaymasına ve dükkandan kıyafet alıp kılık değiştirmek için yonca, mısır ve mıknatıs servetini toplamasına yardım et! 🎪🕌",
+  "fr": "Notre mouton malin a défait sa corde et a décidé de battre Bassou le Boucher ! Aidez-le à sauter, à glisser et à ramasser une fortune de trèfles, de maïs et d'aimants pour acheter des tenues à la boutique et se déguiser ! 🎪🕌",
+  "ur": "ہمارے ہوشیار دنبے نے رسی کھول دی اور بشیر قصائی کو ہرانے کا فیصلہ کیا! اس کی چھلانگ، پھسلنے اور برسیم، مکئی اور مقناطیس کی دولت جمع کرنے میں مدد کریں تاکہ دکان سے لباس خرید کر بھیس بدل سکے! 🎪🕌",
+  "bn": "আমাদের চালাক ভেড়া দড়ি খুলে ফেলেছে আর কসাই বশিরকে হারানোর সিদ্ধান্ত নিয়েছে! লাফ, স্লাইড আর ক্লোভার, ভুট্টা ও চুম্বকের সম্পদ জমাতে তাকে সাহায্য করুন, যাতে দোকান থেকে পোশাক কিনে ছদ্মবেশ নিতে পারে! 🎪🕌"
+ },
+ "دكان الخروف السعيد": {
+  "en": "Happy Sheep Shop",
+  "id": "Toko Domba Ceria",
+  "tr": "Mutlu Koyun Dükkanı",
+  "fr": "La Boutique du Mouton Heureux",
+  "ur": "خوش دنبے کی دکان",
+  "bn": "হাসিখুশি ভেড়ার দোকান"
+ },
+ "سجل الإنجازات": {
+  "en": "Achievements Log",
+  "id": "Catatan Pencapaian",
+  "tr": "Başarı Kaydı",
+  "fr": "Journal des succès",
+  "ur": "کامیابیوں کا ریکارڈ",
+  "bn": "অর্জনের খাতা"
+ },
+ "شاركنا أفكارك لتطوير اللعبة!": {
+  "en": "Share your ideas to improve the game!",
+  "id": "Bagikan idemu untuk mengembangkan game ini!",
+  "tr": "Fikirlerini paylaş, oyunu birlikte geliştirelim!",
+  "fr": "Partagez vos idées pour améliorer le jeu !",
+  "ur": "کھیل بہتر بنانے کے لیے اپنے خیالات بتائیں!",
+  "bn": "খেলাটি আরও ভালো করতে আপনার ভাবনা জানান!"
+ },
+ "صندوق / برميل / عربة:": {
+  "en": "Crate / barrel / cart:",
+  "id": "Peti / tong / gerobak:",
+  "tr": "Sandık / varil / el arabası:",
+  "fr": "Caisse / tonneau / charrette :",
+  "ur": "صندوق / پیپا / ٹھیلا:",
+  "bn": "বাক্স / পিপে / ঠেলাগাড়ি:"
+ },
+ "عالٍ جداً ولا يمكن القفز فوقه ولا التزحلق تحته — غيّر المسار فقط! (سقفه وزجاجه شفافان لترى ما خلفه).": {
+  "en": "Very tall — you can't jump over it or slide under it — just change lanes! (its roof and glass are see-through so you can see what's behind).",
+  "id": "Sangat tinggi — tidak bisa dilompati atau diseluncuri — pindah jalur saja! (atap dan kacanya transparan agar kamu bisa melihat yang di belakang).",
+  "tr": "Çok yüksek — üzerinden zıplanmaz, altından kayılmaz — sadece şerit değiştir! (çatısı ve camı şeffaftır, arkasını görebilirsin).",
+  "fr": "Très haut — impossible de sauter par-dessus ou de glisser dessous — changez simplement de voie ! (son toit et sa vitre sont transparents pour voir ce qu'il y a derrière).",
+  "ur": "بہت اونچا — اس پر سے کودا جا سکتا ہے نہ نیچے سے پھسلا — بس لین بدلیں! (اس کی چھت اور شیشہ شفاف ہیں تاکہ پیچھے کا منظر نظر آئے)۔",
+  "bn": "খুব উঁচু — লাফিয়ে পার হওয়া বা নিচ দিয়ে স্লাইড করা যায় না — শুধু লেন বদলান! (এর ছাদ ও কাচ স্বচ্ছ, তাই পেছনেরটা দেখা যায়)।"
+ },
+ "عقبات منخفضة — اقفز فوقها (▲) أو غيّر المسار.": {
+  "en": "Low obstacles — jump over them (▲) or change lanes.",
+  "id": "Rintangan rendah — lompati (▲) atau pindah jalur.",
+  "tr": "Alçak engeller — üzerinden zıpla (▲) ya da şerit değiştir.",
+  "fr": "Obstacles bas — sautez par-dessus (▲) ou changez de voie.",
+  "ur": "نیچی رکاوٹیں — ان پر سے کودیں (▲) یا لین بدلیں۔",
+  "bn": "নিচু বাধা — লাফিয়ে পার হন (▲) বা লেন বদলান।"
+ },
+ "على الكمبيوتر: الأسهم أو WASD، والمسافة للقفز، و P للإيقاف.": {
+  "en": "On a computer: arrow keys or WASD, Space to jump, and P to pause.",
+  "id": "Di komputer: tombol panah atau WASD, Spasi untuk lompat, dan P untuk jeda.",
+  "tr": "Bilgisayarda: ok tuşları veya WASD, zıplamak için Boşluk, duraklatmak için P.",
+  "fr": "Sur ordinateur : flèches ou WASD, Espace pour sauter et P pour mettre en pause.",
+  "ur": "کمپیوٹر پر: تیر والے بٹن یا WASD، چھلانگ کے لیے اسپیس، اور رکنے کے لیے P۔",
+  "bn": "কম্পিউটারে: তীর চিহ্ন বা WASD, লাফাতে স্পেস, আর থামাতে P।"
+ },
+ "غسيل معلّق:": {
+  "en": "Hanging laundry:",
+  "id": "Jemuran gantung:",
+  "tr": "Asılı çamaşır:",
+  "fr": "Linge suspendu :",
+  "ur": "لٹکے ہوئے کپڑے:",
+  "bn": "ঝোলানো কাপড়:"
+ },
+ "كيف ألعب؟": {
+  "en": "How to play?",
+  "id": "Cara bermain?",
+  "tr": "Nasıl oynanır?",
+  "fr": "Comment jouer ?",
+  "ur": "کھیل کیسے کھیلیں؟",
+  "bn": "কীভাবে খেলবেন?"
+ },
+ "لعبة ركض كرتونية شيقة في حارات مصر القديمة الساحرة 🇪🇬✨": {
+  "en": "A cartoon running game in the charming alleys of old Egypt 🇪🇬✨",
+  "id": "Game lari bergaya kartun di gang-gang memesona Mesir kuno 🇪🇬✨",
+  "tr": "Eski Mısır’ın büyüleyici sokaklarında çizgi film tarzı bir koşu oyunu 🇪🇬✨",
+  "fr": "Un jeu de course en dessin animé dans les ruelles charmantes de l'Égypte d'antan 🇪🇬✨",
+  "ur": "قدیم مصر کی دلکش گلیوں میں کارٹون انداز کا دوڑنے والا کھیل 🇪🇬✨",
+  "bn": "প্রাচীন মিশরের মনোমুগ্ধকর গলিতে কার্টুন ঢঙের দৌড়ের খেলা 🇪🇬✨"
+ },
+ "مظلة المحل (شريط أصفر/أسود):": {
+  "en": "Shop awning (yellow/black stripe):",
+  "id": "Tenda toko (garis kuning/hitam):",
+  "tr": "Dükkan tentesi (sarı/siyah şerit):",
+  "fr": "Store de boutique (bande jaune/noire) :",
+  "ur": "دکان کا سائبان (پیلی/کالی پٹی):",
+  "bn": "দোকানের শামিয়ানা (হলুদ/কালো ডোরা):"
+ },
+ "منخفضة من الأعلى — تزحلق تحتها (▼).": {
+  "en": "Low from above — slide under it (▼).",
+  "id": "Rendah dari atas — seluncur di bawahnya (▼).",
+  "tr": "Yukarıdan alçak — altından kay (▼).",
+  "fr": "Bas vu d'en haut — glissez dessous (▼).",
+  "ur": "اوپر سے نیچا — اس کے نیچے سے پھسلیں (▼)۔",
+  "bn": "ওপর থেকে নিচু — এর নিচ দিয়ে স্লাইড করুন (▼)।"
+ },
+ "هروب خروف العيد": {
+  "en": "Eid Sheep Escape",
+  "id": "Pelarian Domba Idul Adha",
+  "tr": "Kurban Bayramı Koyunu Kaçıyor",
+  "fr": "Évasion du Mouton de l'Aïd",
+  "ur": "عید کے دنبے کا فرار",
+  "bn": "ঈদের ভেড়ার পলায়ন"
+ },
+ "هروب خروف العيد! 🐑": {
+  "en": "Eid Sheep Escape! 🐑",
+  "id": "Pelarian Domba Idul Adha! 🐑",
+  "tr": "Kurban Bayramı Koyunu Kaçıyor! 🐑",
+  "fr": "Évasion du Mouton de l'Aïd ! 🐑",
+  "ur": "عید کے دنبے کا فرار! 🐑",
+  "bn": "ঈদের ভেড়ার পলায়ন! 🐑"
+ },
+ "هنا يظهر الإعلان الحقيقي بعد ربط مزوّد الإعلانات.": {
+  "en": "The real ad appears here once an ad provider is connected.",
+  "id": "Iklan sungguhan akan muncul di sini setelah penyedia iklan dihubungkan.",
+  "tr": "Reklam sağlayıcı bağlandığında gerçek reklam burada görünür.",
+  "fr": "La vraie pub apparaîtra ici une fois le fournisseur de pubs connecté.",
+  "ur": "اشتہار فراہم کرنے والے سے جڑنے کے بعد اصل اشتہار یہاں نظر آئے گا۔",
+  "bn": "বিজ্ঞাপন সরবরাহকারী যুক্ত হলে আসল বিজ্ঞাপন এখানে দেখা যাবে।"
+ },
+ "ينتهي خلال": {
+  "en": "Ends in",
+  "id": "Berakhir dalam",
+  "tr": "Bitmesine",
+  "fr": "Se termine dans",
+  "ur": "ختم ہونے میں",
+  "bn": "শেষ হতে"
+ },
+ "⏸ إيقاف مؤقت": {
+  "en": "⏸ Paused",
+  "id": "⏸ Jeda",
+  "tr": "⏸ Duraklatıldı",
+  "fr": "⏸ Pause",
+  "ur": "⏸ وقفہ",
+  "bn": "⏸ বিরতি"
+ },
+ "▲ أو اسحب لأعلى: اقفز فوق الصناديق والبراميل.": {
+  "en": "▲ or swipe up: jump over crates and barrels.",
+  "id": "▲ atau geser ke atas: lompati peti dan tong.",
+  "tr": "▲ veya yukarı kaydır: sandıkların ve varillerin üzerinden zıpla.",
+  "fr": "▲ ou balayez vers le haut : sautez par-dessus les caisses et les tonneaux.",
+  "ur": "▲ یا اوپر انگلی پھیریں: صندوقوں اور پیپوں پر سے کودیں۔",
+  "bn": "▲ অথবা ওপরে সোয়াইপ: বাক্স ও পিপের ওপর দিয়ে লাফান।"
+ },
+ "▶ استمر في الهروب": {
+  "en": "▶ Keep escaping",
+  "id": "▶ Lanjut kabur",
+  "tr": "▶ Kaçmaya devam et",
+  "fr": "▶ Continuer à fuir",
+  "ur": "▶ بھاگتے رہیں",
+  "bn": "▶ পালাতে থাকুন"
+ },
+ "▼ أو اسحب لأسفل: تزحلق تحت الحبال والمظلات (الشريط الأصفر/الأسود).": {
+  "en": "▼ or swipe down: slide under ropes and awnings (the yellow/black stripe).",
+  "id": "▼ atau geser ke bawah: seluncur di bawah tali dan tenda (garis kuning/hitam).",
+  "tr": "▼ veya aşağı kaydır: iplerin ve tentelerin altından kay (sarı/siyah şerit).",
+  "fr": "▼ ou balayez vers le bas : glissez sous les cordes et les stores (la bande jaune/noire).",
+  "ur": "▼ یا نیچے انگلی پھیریں: رسیوں اور سائبانوں (پیلی/کالی پٹی) کے نیچے سے پھسلیں۔",
+  "bn": "▼ অথবা নিচে সোয়াইপ: দড়ি ও শামিয়ানার (হলুদ/কালো ডোরা) নিচ দিয়ে স্লাইড করুন।"
+ },
+ "◀ ▶ أو اسحب يميناً/يساراً: غيّر المسار (3 مسارات).": {
+  "en": "◀ ▶ or swipe left/right: change lane (3 lanes).",
+  "id": "◀ ▶ atau geser kiri/kanan: pindah jalur (3 jalur).",
+  "tr": "◀ ▶ veya sağa/sola kaydır: şerit değiştir (3 şerit).",
+  "fr": "◀ ▶ ou balayez à gauche/droite : changez de voie (3 voies).",
+  "ur": "◀ ▶ یا دائیں/بائیں انگلی پھیریں: لین بدلیں (3 لینیں)۔",
+  "bn": "◀ ▶ অথবা ডানে/বাঁয়ে সোয়াইপ: লেন বদলান (৩টি লেন)।"
+ },
+ "⚡ الترقيات": {
+  "en": "⚡ Upgrades",
+  "id": "⚡ Peningkatan",
+  "tr": "⚡ Yükseltmeler",
+  "fr": "⚡ Améliorations",
+  "ur": "⚡ اپ گریڈ",
+  "bn": "⚡ আপগ্রেড"
+ },
+ "⚡ السرعة والصعوبة": {
+  "en": "⚡ Speed & Difficulty",
+  "id": "⚡ Kecepatan & Kesulitan",
+  "tr": "⚡ Hız ve Zorluk",
+  "fr": "⚡ Vitesse et difficulté",
+  "ur": "⚡ رفتار اور مشکل",
+  "bn": "⚡ গতি ও কঠিনতা"
+ },
+ "⭐ نجمة: تضاعف نقاطك لمدة قصيرة.": {
+  "en": "⭐ Star: doubles your points for a short time.",
+  "id": "⭐ Bintang: menggandakan poinmu untuk waktu singkat.",
+  "tr": "⭐ Yıldız: kısa süreliğine puanlarını ikiye katlar.",
+  "fr": "⭐ Étoile : double vos points pendant un court moment.",
+  "ur": "⭐ ستارہ: تھوڑی دیر کے لیے آپ کے پوائنٹ دگنے کرتا ہے۔",
+  "bn": "⭐ তারা: অল্প সময়ের জন্য আপনার পয়েন্ট দ্বিগুণ করে।"
+ },
+ "🌶️ صعب ناري": {
+  "en": "🌶️ Fiery Hard",
+  "id": "🌶️ Pedas Sulit",
+  "tr": "🌶️ Ateşli Zor",
+  "fr": "🌶️ Piquant",
+  "ur": "🌶️ تیکھا مشکل",
+  "bn": "🌶️ ঝাল কঠিন"
+ },
+ "🌶️ فلفل حار (نادر): يطير بك ١٥ ثانية فوق كل العقبات ويجذب البرسيم، ويحذّرك قبل الهبوط بثلاث ثوانٍ.": {
+  "en": "🌶️ Hot Pepper (rare): flies you for 15 seconds over all obstacles and attracts clovers, and warns you three seconds before landing.",
+  "id": "🌶️ Cabai Pedas (langka): menerbangkanmu 15 detik di atas semua rintangan, menarik semanggi, dan memperingatkanmu tiga detik sebelum mendarat.",
+  "tr": "🌶️ Acı Biber (nadir): seni 15 saniye tüm engellerin üzerinde uçurur, yoncaları çeker ve inişten üç saniye önce uyarır.",
+  "fr": "🌶️ Piment fort (rare) : vous fait voler 15 secondes au-dessus de tous les obstacles, attire les trèfles et vous prévient trois secondes avant l'atterrissage.",
+  "ur": "🌶️ تیز مرچ (نایاب): آپ کو 15 سیکنڈ تک تمام رکاوٹوں کے اوپر اڑاتی ہے، برسیم کھینچتی ہے اور لینڈنگ سے تین سیکنڈ پہلے خبردار کرتی ہے۔",
+  "bn": "🌶️ ঝাল মরিচ (দুর্লভ): আপনাকে ১৫ সেকেন্ড সব বাধার ওপর দিয়ে উড়িয়ে নেয়, ক্লোভার টানে এবং অবতরণের তিন সেকেন্ড আগে সতর্ক করে।"
+ },
+ "🌽 ذرة سحرية: مغناطيس يجذب البرسيم نحوك.": {
+  "en": "🌽 Magic Corn: a magnet that pulls clovers toward you.",
+  "id": "🌽 Jagung Ajaib: magnet yang menarik semanggi ke arahmu.",
+  "tr": "🌽 Sihirli Mısır: yoncaları sana çeken mıknatıs.",
+  "fr": "🌽 Maïs magique : un aimant qui attire les trèfles vers vous.",
+  "ur": "🌽 جادوئی مکئی: ایک مقناطیس جو برسیم کو آپ کی طرف کھینچتا ہے۔",
+  "bn": "🌽 জাদুর ভুট্টা: ক্লোভারকে আপনার দিকে টানা চুম্বক।"
+ },
+ "🍀 برسيم: عملتك لشراء الأزياء والترقيات.": {
+  "en": "🍀 Clover: your currency for buying outfits and upgrades.",
+  "id": "🍀 Semanggi: mata uangmu untuk membeli kostum dan peningkatan.",
+  "tr": "🍀 Yonca: kıyafet ve yükseltme almak için paran.",
+  "fr": "🍀 Trèfle : votre monnaie pour acheter des tenues et des améliorations.",
+  "ur": "🍀 برسیم: لباس اور اپ گریڈ خریدنے کے لیے آپ کی کرنسی۔",
+  "bn": "🍀 ক্লোভার: পোশাক ও আপগ্রেড কেনার মুদ্রা।"
+ },
+ "🎁 استلم": {
+  "en": "🎁 Claim",
+  "id": "🎁 Ambil",
+  "tr": "🎁 Al",
+  "fr": "🎁 Récupérer",
+  "ur": "🎁 وصول کریں",
+  "bn": "🎁 নিন"
+ },
+ "🎁 العناصر": {
+  "en": "🎁 Items",
+  "id": "🎁 Item",
+  "tr": "🎁 Eşyalar",
+  "fr": "🎁 Objets",
+  "ur": "🎁 اشیا",
+  "bn": "🎁 জিনিসপত্র"
+ },
+ "🎁 مكافأة الدخول اليومي": {
+  "en": "🎁 Daily Login Reward",
+  "id": "🎁 Hadiah Masuk Harian",
+  "tr": "🎁 Günlük Giriş Ödülü",
+  "fr": "🎁 Récompense de connexion quotidienne",
+  "ur": "🎁 روزانہ حاضری کا انعام",
+  "bn": "🎁 দৈনিক লগইন পুরস্কার"
+ },
+ "🎈 البالونات": {
+  "en": "🎈 Balloons",
+  "id": "🎈 Balon",
+  "tr": "🎈 Balonlar",
+  "fr": "🎈 Ballons",
+  "ur": "🎈 غبارے",
+  "bn": "🎈 বেলুন"
+ },
+ "🎈 اهرب وطير بالبالونات": {
+  "en": "🎈 Escape and fly with balloons",
+  "id": "🎈 Kabur dan terbang dengan balon",
+  "tr": "🎈 Kaç ve balonlarla uç",
+  "fr": "🎈 Fuyez et envolez-vous avec des ballons",
+  "ur": "🎈 غباروں کے ساتھ بھاگیں اور اڑیں",
+  "bn": "🎈 পালান আর বেলুনে উড়ুন"
+ },
+ "🎒 تعزيزات": {
+  "en": "🎒 Boosts",
+  "id": "🎒 Penguat",
+  "tr": "🎒 Destekler",
+  "fr": "🎒 Boosts",
+  "ur": "🎒 مددگار",
+  "bn": "🎒 সহায়ক"
+ },
+ "🎪 دكان الخروف السعيد": {
+  "en": "🎪 Happy Sheep Shop",
+  "id": "🎪 Toko Domba Ceria",
+  "tr": "🎪 Mutlu Koyun Dükkanı",
+  "fr": "🎪 La Boutique du Mouton Heureux",
+  "ur": "🎪 خوش دنبے کی دکان",
+  "bn": "🎪 হাসিখুশি ভেড়ার দোকান"
+ },
+ "🎮 طريقة التحكم": {
+  "en": "🎮 Controls",
+  "id": "🎮 Cara Kontrol",
+  "tr": "🎮 Kontrol Şekli",
+  "fr": "🎮 Contrôles",
+  "ur": "🎮 کنٹرول کا طریقہ",
+  "bn": "🎮 নিয়ন্ত্রণ পদ্ধতি"
+ },
+ "🎯 تحديات العيد اليومية": {
+  "en": "🎯 Daily Eid Challenges",
+  "id": "🎯 Tantangan Idul Adha Harian",
+  "tr": "🎯 Günlük Bayram Görevleri",
+  "fr": "🎯 Défis quotidiens de l'Aïd",
+  "ur": "🎯 روزانہ عید کے چیلنج",
+  "bn": "🎯 দৈনিক ঈদের চ্যালেঞ্জ"
+ },
+ "🎵 الصوت": {
+  "en": "🎵 Sound",
+  "id": "🎵 Suara",
+  "tr": "🎵 Ses",
+  "fr": "🎵 Son",
+  "ur": "🎵 آواز",
+  "bn": "🎵 শব্দ"
+ },
+ "🎶 الموسيقى": {
+  "en": "🎶 Music",
+  "id": "🎶 Musik",
+  "tr": "🎶 Müzik",
+  "fr": "🎶 Musique",
+  "ur": "🎶 موسیقی",
+  "bn": "🎶 সংগীত"
+ },
+ "🏃 عادي طبيعي": {
+  "en": "🏃 Normal",
+  "id": "🏃 Normal",
+  "tr": "🏃 Normal",
+  "fr": "🏃 Normal",
+  "ur": "🏃 عام",
+  "bn": "🏃 সাধারণ"
+ },
+ "🏅 الإنجازات": {
+  "en": "🏅 Achievements",
+  "id": "🏅 Pencapaian",
+  "tr": "🏅 Başarılar",
+  "fr": "🏅 Succès",
+  "ur": "🏅 کامیابیاں",
+  "bn": "🏅 অর্জন"
+ },
+ "🏠 العودة للقائمة الرئيسية": {
+  "en": "🏠 Back to main menu",
+  "id": "🏠 Kembali ke menu utama",
+  "tr": "🏠 Ana menüye dön",
+  "fr": "🏠 Retour au menu principal",
+  "ur": "🏠 مین مینو پر واپس",
+  "bn": "🏠 প্রধান মেনুতে ফিরুন"
+ },
+ "🏠 القائمة الرئيسية": {
+  "en": "🏠 Main menu",
+  "id": "🏠 Menu utama",
+  "tr": "🏠 Ana menü",
+  "fr": "🏠 Menu principal",
+  "ur": "🏠 مین مینو",
+  "bn": "🏠 প্রধান মেনু"
+ },
+ "🐑 سهل هادئ": {
+  "en": "🐑 Easy",
+  "id": "🐑 Mudah",
+  "tr": "🐑 Kolay",
+  "fr": "🐑 Facile",
+  "ur": "🐑 آسان",
+  "bn": "🐑 সহজ"
+ },
+ "🐱🐶 احذر القطط والكلاب التي تعبر الطريق — اقفز فوقها!": {
+  "en": "🐱🐶 Watch out for cats and dogs crossing the road — jump over them!",
+  "id": "🐱🐶 Awas kucing dan anjing yang menyeberang jalan — lompati mereka!",
+  "tr": "🐱🐶 Yolu geçen kedilere ve köpeklere dikkat et — üzerlerinden zıpla!",
+  "fr": "🐱🐶 Attention aux chats et aux chiens qui traversent la route — sautez par-dessus !",
+  "ur": "🐱🐶 سڑک پار کرتی بلیوں اور کتوں سے ہوشیار رہیں — ان پر سے کودیں!",
+  "bn": "🐱🐶 রাস্তা পার হওয়া বিড়াল ও কুকুর থেকে সাবধান — লাফিয়ে পার হন!"
+ },
+ "👆 السحب (Swipe)": {
+  "en": "👆 Swipe",
+  "id": "👆 Geser (Swipe)",
+  "tr": "👆 Kaydırma (Swipe)",
+  "fr": "👆 Balayage (Swipe)",
+  "ur": "👆 انگلی پھیرنا (Swipe)",
+  "bn": "👆 সোয়াইপ (Swipe)"
+ },
+ "👒 الأزياء": {
+  "en": "👒 Outfits",
+  "id": "👒 Kostum",
+  "tr": "👒 Kıyafetler",
+  "fr": "👒 Tenues",
+  "ur": "👒 لباس",
+  "bn": "👒 পোশাক"
+ },
+ "💡 أحياناً تأتي ثلاث عقبات معاً: ابحث عن المسار الفارغ أو الذي تتجاوزه بنوع الحركة المناسب.": {
+  "en": "💡 Sometimes three obstacles come at once: find the empty lane, or get past with the right move.",
+  "id": "💡 Kadang tiga rintangan datang sekaligus: cari jalur kosong atau lewati dengan gerakan yang tepat.",
+  "tr": "💡 Bazen üç engel birden gelir: boş şeridi bul ya da doğru hareketle geç.",
+  "fr": "💡 Parfois trois obstacles arrivent en même temps : trouvez la voie libre ou passez avec le bon mouvement.",
+  "ur": "💡 کبھی کبھی تین رکاوٹیں ایک ساتھ آتی ہیں: خالی لین ڈھونڈیں یا صحیح حرکت سے گزر جائیں۔",
+  "bn": "💡 মাঝে মাঝে একসাথে তিনটি বাধা আসে: ফাঁকা লেন খুঁজুন বা সঠিক চালে পার হন।"
+ },
+ "📊 سجل إنجازات الخروف": {
+  "en": "📊 Sheep Achievements Log",
+  "id": "📊 Catatan Pencapaian Domba",
+  "tr": "📊 Koyunun Başarı Kaydı",
+  "fr": "📊 Journal des succès du mouton",
+  "ur": "📊 دنبے کی کامیابیوں کا ریکارڈ",
+  "bn": "📊 ভেড়ার অর্জনের খাতা"
+ },
+ "📖 كيف ألعب اللعبة؟": {
+  "en": "📖 How to play the game?",
+  "id": "📖 Cara bermain game?",
+  "tr": "📖 Oyun nasıl oynanır?",
+  "fr": "📖 Comment jouer au jeu ?",
+  "ur": "📖 کھیل کیسے کھیلیں؟",
+  "bn": "📖 খেলাটি কীভাবে খেলবেন?"
+ },
+ "📳 الاهتزاز": {
+  "en": "📳 Vibration",
+  "id": "📳 Getar",
+  "tr": "📳 Titreşim",
+  "fr": "📳 Vibration",
+  "ur": "📳 وائبریشن",
+  "bn": "📳 কম্পন"
+ },
+ "📺 إعلان تجريبي": {
+  "en": "📺 Test ad",
+  "id": "📺 Iklan uji coba",
+  "tr": "📺 Deneme reklamı",
+  "fr": "📺 Pub de test",
+  "ur": "📺 آزمائشی اشتہار",
+  "bn": "📺 পরীক্ষামূলক বিজ্ঞাপন"
+ },
+ "📺 شاهد إعلان واحصل على بالونة وأكمل": {
+  "en": "📺 Watch an ad to get a balloon and keep going",
+  "id": "📺 Tonton iklan dapat balon dan lanjutkan",
+  "tr": "📺 Reklam izle, balon kazan ve devam et",
+  "fr": "📺 Regardez une pub pour gagner un ballon et continuer",
+  "ur": "📺 اشتہار دیکھیں، غبارہ پائیں اور جاری رکھیں",
+  "bn": "📺 বিজ্ঞাপন দেখে বেলুন নিন ও চালিয়ে যান"
+ },
+ "📺 ضاعف البرسيم بمشاهدة إعلان": {
+  "en": "📺 Double your clovers by watching an ad",
+  "id": "📺 Gandakan semanggi dengan menonton iklan",
+  "tr": "📺 Reklam izleyerek yoncanı ikiye katla",
+  "fr": "📺 Doublez vos trèfles en regardant une pub",
+  "ur": "📺 اشتہار دیکھ کر برسیم دگنے کریں",
+  "bn": "📺 বিজ্ঞাপন দেখে ক্লোভার দ্বিগুণ করুন"
+ },
+ "🔄 ابدأ من جديد": {
+  "en": "🔄 Start over",
+  "id": "🔄 Mulai dari awal",
+  "tr": "🔄 Baştan başla",
+  "fr": "🔄 Recommencer",
+  "ur": "🔄 نئے سرے سے شروع کریں",
+  "bn": "🔄 নতুন করে শুরু"
+ },
+ "🔄 تجديد التحديات غير المكتملة (20 🍀)": {
+  "en": "🔄 Refresh unfinished challenges (20 🍀)",
+  "id": "🔄 Segarkan tantangan yang belum selesai (20 🍀)",
+  "tr": "🔄 Tamamlanmamış görevleri yenile (20 🍀)",
+  "fr": "🔄 Relancer les défis non terminés (20 🍀)",
+  "ur": "🔄 نامکمل چیلنج دوبارہ شروع کریں (20 🍀)",
+  "bn": "🔄 অসম্পূর্ণ চ্যালেঞ্জ নতুন করুন (২০ 🍀)"
+ },
+ "🔊 المؤثرات": {
+  "en": "🔊 Sound FX",
+  "id": "🔊 Efek suara",
+  "tr": "🔊 Ses efektleri",
+  "fr": "🔊 Effets sonores",
+  "ur": "🔊 آواز کے اثرات",
+  "bn": "🔊 শব্দের প্রভাব"
+ },
+ "🔊 المؤثرات الصوتية": {
+  "en": "🔊 Sound effects",
+  "id": "🔊 Efek suara",
+  "tr": "🔊 Ses efektleri",
+  "fr": "🔊 Effets sonores",
+  "ur": "🔊 آواز کے اثرات",
+  "bn": "🔊 শব্দের প্রভাব"
+ },
+ "🔔 تذكيرات اللعبة": {
+  "en": "🔔 Game reminders",
+  "id": "🔔 Pengingat game",
+  "tr": "🔔 Oyun hatırlatıcıları",
+  "fr": "🔔 Rappels du jeu",
+  "ur": "🔔 کھیل کی یاد دہانیاں",
+  "bn": "🔔 খেলার স্মারক"
+ },
+ "🔪 أمسك بك الجزار!": {
+  "en": "🔪 The butcher caught you!",
+  "id": "🔪 Si jagal menangkapmu!",
+  "tr": "🔪 Kasap seni yakaladı!",
+  "fr": "🔪 Le boucher vous a attrapé !",
+  "ur": "🔪 قصائی نے آپ کو پکڑ لیا!",
+  "bn": "🔪 কসাই আপনাকে ধরে ফেলেছে!"
+ },
+ "🔪 الجزار بسيوني": {
+  "en": "🔪 Butcher Bassy",
+  "id": "🔪 Pak Jagal",
+  "tr": "🔪 Kasap Beşir",
+  "fr": "🔪 Bassou le Boucher",
+  "ur": "🔪 بشیر قصائی",
+  "bn": "🔪 কসাই বশির"
+ },
+ "🔪 رتبتك:": {
+  "en": "🔪 Your rank:",
+  "id": "🔪 Peringkatmu:",
+  "tr": "🔪 Rütben:",
+  "fr": "🔪 Votre rang :",
+  "ur": "🔪 آپ کا درجہ:",
+  "bn": "🔪 আপনার র‍্যাঙ্ক:"
+ },
+ "🕹️ أسهم الشاشة": {
+  "en": "🕹️ On-screen arrows",
+  "id": "🕹️ Tombol arah di layar",
+  "tr": "🕹️ Ekran okları",
+  "fr": "🕹️ Flèches à l'écran",
+  "ur": "🕹️ اسکرین کے تیر",
+  "bn": "🕹️ পর্দার তীর"
+ },
+ "🕹️ التحكم": {
+  "en": "🕹️ Controls",
+  "id": "🕹️ Kontrol",
+  "tr": "🕹️ Kontrol",
+  "fr": "🕹️ Contrôles",
+  "ur": "🕹️ کنٹرول",
+  "bn": "🕹️ নিয়ন্ত্রণ"
+ },
+ "🚀 ابدأ الهروب الكبير الآن!": {
+  "en": "🚀 Start the great escape now!",
+  "id": "🚀 Mulai pelarian besar sekarang!",
+  "tr": "🚀 Büyük kaçışa şimdi başla!",
+  "fr": "🚀 Lancez la grande évasion maintenant !",
+  "ur": "🚀 ابھی بڑا فرار شروع کریں!",
+  "bn": "🚀 এখনই মহাপলায়ন শুরু করুন!"
+ },
+ "🚧 العقبات وكيف تتجاوزها": {
+  "en": "🚧 Obstacles and how to get past them",
+  "id": "🚧 Rintangan dan cara melewatinya",
+  "tr": "🚧 Engeller ve nasıl aşılır",
+  "fr": "🚧 Les obstacles et comment les franchir",
+  "ur": "🚧 رکاوٹیں اور ان سے کیسے گزریں",
+  "bn": "🚧 বাধা ও কীভাবে পার হবেন"
+ },
+ "🧹 البيانات": {
+  "en": "🧹 Data",
+  "id": "🧹 Data",
+  "tr": "🧹 Veriler",
+  "fr": "🧹 Données",
+  "ur": "🧹 ڈیٹا",
+  "bn": "🧹 ডেটা"
+ },
+ "🧿 خرزة زرقاء: درع يحميك من اصطدام واحد.": {
+  "en": "🧿 Blue Bead: a shield that protects you from one collision.",
+  "id": "🧿 Manik Biru: perisai yang melindungi dari satu tabrakan.",
+  "tr": "🧿 Mavi Boncuk: seni bir çarpışmadan koruyan kalkan.",
+  "fr": "🧿 Perle bleue : un bouclier qui vous protège d'une collision.",
+  "ur": "🧿 نیلا منکا: ایک ٹکر سے بچانے والی ڈھال۔",
+  "bn": "🧿 নীল পুঁতি: একটি সংঘর্ষ থেকে রক্ষাকারী ঢাল।"
+ },
+ "إيقاف مؤقت": {
+  "en": "Paused",
+  "id": "Jeda",
+  "tr": "Duraklatıldı",
+  "fr": "Pause",
+  "ur": "وقفہ",
+  "bn": "বিরতি"
+ },
+ "يسار": {
+  "en": "Left",
+  "id": "Kiri",
+  "tr": "Sol",
+  "fr": "Gauche",
+  "ur": "بائیں",
+  "bn": "বাঁ"
+ },
+ "يمين": {
+  "en": "Right",
+  "id": "Kanan",
+  "tr": "Sağ",
+  "fr": "Droite",
+  "ur": "دائیں",
+  "bn": "ডান"
+ },
+ "قفز": {
+  "en": "Jump",
+  "id": "Lompat",
+  "tr": "Zıpla",
+  "fr": "Saut",
+  "ur": "چھلانگ",
+  "bn": "লাফ"
+ },
+ "تزحلق": {
+  "en": "Slide",
+  "id": "Seluncur",
+  "tr": "Kay",
+  "fr": "Glissade",
+  "ur": "پھسلنا",
+  "bn": "স্লাইড"
+ },
+ "هروب خروف العيد من الجزار بسيوني": {
+  "en": "Eid Sheep Escape from Butcher Bassy",
+  "id": "Pelarian Domba Idul Adha dari Pak Jagal",
+  "tr": "Kurban Bayramı Koyunu Kasap Beşir’den Kaçıyor",
+  "fr": "Évasion du Mouton de l'Aïd face à Bassou le Boucher",
+  "ur": "عید کے دنبے کا فرار بشیر قصائی سے",
+  "bn": "কসাই বশিরের কাছ থেকে ঈদের ভেড়ার পলায়ন"
+ },
+ "الموسيقى": {
+  "en": "Music",
+  "id": "Musik",
+  "tr": "Müzik",
+  "fr": "Musique",
+  "ur": "موسیقی",
+  "bn": "সংগীত"
+ },
+ "المؤثرات": {
+  "en": "Sound FX",
+  "id": "Efek suara",
+  "tr": "Ses efektleri",
+  "fr": "Effets sonores",
+  "ur": "آواز کے اثرات",
+  "bn": "শব্দের প্রভাব"
+ },
+ "الاهتزاز": {
+  "en": "Vibration",
+  "id": "Getar",
+  "tr": "Titreşim",
+  "fr": "Vibration",
+  "ur": "وائبریشن",
+  "bn": "কম্পন"
+ },
+ "التذكيرات": {
+  "en": "Reminders",
+  "id": "Pengingat",
+  "tr": "Hatırlatıcılar",
+  "fr": "Rappels",
+  "ur": "یاد دہانیاں",
+  "bn": "স্মারক"
+ },
+ "🌐 اللغة": {
+  "en": "🌐 Language",
+  "id": "🌐 Bahasa",
+  "tr": "🌐 Dil",
+  "fr": "🌐 Langue",
+  "ur": "🌐 زبان",
+  "bn": "🌐 ভাষা"
+ },
+ "العربية": {
+  "en": "العربية",
+  "id": "العربية",
+  "tr": "العربية",
+  "fr": "العربية",
+  "ur": "العربية",
+  "bn": "العربية"
+ },
+ "الإعدادات": {
+  "en": "Settings",
+  "id": "Pengaturan",
+  "tr": "Ayarlar",
+  "fr": "Réglages",
+  "ur": "ترتیبات",
+  "bn": "সেটিংস"
+ },
+ "⚙️ الإعدادات": {
+  "en": "⚙️ Settings",
+  "id": "⚙️ Pengaturan",
+  "tr": "⚙️ Ayarlar",
+  "fr": "⚙️ Réglages",
+  "ur": "⚙️ ترتیبات",
+  "bn": "⚙️ সেটিংস"
+ }
+}
