@@ -11,8 +11,8 @@ android {
         applicationId = "com.eid.sheepescape"
         minSdk = 26
         targetSdk = 36
-        versionCode = 4
-        versionName = "1.4"
+        versionCode = 5
+        versionName = "1.5"
     }
 
     // التوقيع: يُفعَّل تلقائياً عند وجود متغيرات البيئة (يستخدمها GitHub Actions من الـ Secrets)
