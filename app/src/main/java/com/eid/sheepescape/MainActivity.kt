@@ -182,6 +182,9 @@ class MainActivity : AppCompatActivity() {
             "fr" -> arrayOf("Mise à jour téléchargée 🎉", "Une nouvelle version du jeu est prête. Redémarrez le jeu pour l'installer (votre progression est sauvegardée).", "Redémarrer", "Plus tard")
             "ur" -> arrayOf("اپ ڈیٹ ڈاؤن لوڈ ہو گئی 🎉", "کھیل کا نیا ورژن تیار ہے۔ اسے انسٹال کرنے کے لیے کھیل دوبارہ شروع کریں (آپ کی پیش رفت محفوظ ہے)۔", "دوبارہ شروع کریں", "بعد میں")
             "bn" -> arrayOf("আপডেট ডাউনলোড হয়েছে 🎉", "খেলার নতুন সংস্করণ প্রস্তুত। ইনস্টল করতে খেলাটি আবার চালু করুন (আপনার অগ্রগতি সংরক্ষিত)।", "আবার চালু করুন", "পরে")
+            "ms" -> arrayOf("Kemas kini dimuat turun 🎉", "Versi baharu permainan sudah sedia. Mulakan semula permainan untuk memasangnya (kemajuan anda selamat).", "Mulakan semula", "Nanti")
+            "fa" -> arrayOf("به‌روزرسانی دانلود شد 🎉", "نسخهٔ جدید بازی آماده است. برای نصب، بازی را دوباره راه‌اندازی کنید (پیشرفت شما ذخیره است).", "راه‌اندازی دوباره", "بعداً")
+            "ru" -> arrayOf("Обновление загружено 🎉", "Новая версия игры готова. Перезапустите игру, чтобы установить её (ваш прогресс сохранён).", "Перезапустить", "Позже")
             else -> arrayOf("تم تنزيل التحديث 🎉", "إصدار جديد من اللعبة جاهز. أعد تشغيل اللعبة لتثبيته (تقدمك محفوظ).", "إعادة التشغيل", "لاحقاً")
         }
         AlertDialog.Builder(this)
@@ -208,6 +211,15 @@ class MainActivity : AppCompatActivity() {
     inner class Bridge {
         @JavascriptInterface
         fun exit() { runOnUiThread { finishAndRemoveTask() } }
+
+        @JavascriptInterface
+        fun setBrightness(v: Double) {
+            runOnUiThread {
+                val lp = window.attributes
+                lp.screenBrightness = if (v < 0) WindowManager.LayoutParams.BRIGHTNESS_OVERRIDE_NONE else v.toFloat().coerceIn(0.01f, 1f)
+                window.attributes = lp
+            }
+        }
 
         @JavascriptInterface
         fun setLang(l: String) { Reminders.setLang(this@MainActivity, l) }

@@ -25,8 +25,8 @@ object Reminders {
     private val DELAYS = longArrayOf(48 * H, 5 * 24 * H, 14 * 24 * H)
 
     private const val K_LANG = "lang"
-    private val TITLES = mapOf("ar" to "هروب خروف العيد", "en" to "Eid Sheep Escape", "id" to "Pelarian Domba Idul Adha", "tr" to "Kurban Bayramı Koyunu Kaçıyor", "fr" to "Évasion du Mouton de l'Aïd", "ur" to "عید کے دنبے کا فرار", "bn" to "ঈদের ভেড়ার পলায়ন")
-    private val CH_NAMES = mapOf("ar" to "تذكيرات اللعبة", "en" to "Game reminders", "id" to "Pengingat game", "tr" to "Oyun hatırlatıcıları", "fr" to "Rappels du jeu", "ur" to "کھیل کی یاد دہانیاں", "bn" to "খেলার স্মারক")
+    private val TITLES = mapOf("ar" to "هروب خروف العيد", "en" to "Eid Sheep Escape", "id" to "Pelarian Domba Idul Adha", "tr" to "Kurban Bayramı Koyunu Kaçıyor", "fr" to "Évasion du Mouton de l'Aïd", "ur" to "عید کے دنبے کا فرار", "bn" to "ঈদের ভেড়ার পলায়ন", "ms" to "Larian Biri-biri Aidiladha", "fa" to "فرار گوسفند عید قربان", "ru" to "Побег барашка на Курбан-байрам")
+    private val CH_NAMES = mapOf("ar" to "تذكيرات اللعبة", "en" to "Game reminders", "id" to "Pengingat game", "tr" to "Oyun hatırlatıcıları", "fr" to "Rappels du jeu", "ur" to "کھیل کی یاد دہانیاں", "bn" to "খেলার স্মারক", "ms" to "Peringatan permainan", "fa" to "یادآورهای بازی", "ru" to "Напоминания игры")
     private val TEXTS = mapOf(
         "ar" to arrayOf(
             arrayOf("الخروف ينتظرك! 🐑 مكافأتك اليومية في خطر!", "بسيوني يسأل عنك.. تعال اهرب قبل العيد! 🔪", "تحدي العيد اليومي جاهز.. لا تضيّع المكافأة! 🎁"),
@@ -62,12 +62,27 @@ object Reminders {
             arrayOf("ভেড়া আপনার অপেক্ষায়! 🐑 আপনার দৈনিক পুরস্কার ঝুঁকিতে!", "কসাই বশির আপনার খোঁজ করছে.. ঈদের আগে এসে পালান! 🔪", "আজকের ঈদের চ্যালেঞ্জ তৈরি.. পুরস্কার হাতছাড়া করবেন না! 🎁"),
             arrayOf("কসাই বশির এখনও আপনার পিছু নিচ্ছে! 😅 আজ কত মিটার পালাবেন?", "ক্লোভার 🍀 আপনাকে মিস করছে.. ফিরে এসে আরও জমান!", "আপনার দৈনিক পুরস্কার অপেক্ষায়, সঙ্গে ঈদের বেলুন 🎈ও!")
 ,            arrayOf("আমরা আপনাকে মিস করছি! 🐑 ভেড়া এখনও পলাতক, আপনার সাহায্য দরকার।", "ভেড়াকে ভুলে গেলেন? ফিরে এসে কসাই বশিরের কাছ থেকে পালাতে থাকুন! 🏃")
+        ),
+        "ms" to arrayOf(
+            arrayOf("Biri-biri menunggu anda! 🐑 Ganjaran harian anda hampir hangus!", "Pak Mat Sembelih tanya pasal anda.. mari lari sebelum Hari Raya! 🔪", "Cabaran Hari Raya hari ini dah sedia.. jangan lepaskan ganjarannya! 🎁"),
+            arrayOf("Pak Mat Sembelih masih mengejar anda! 😅 Berapa meter anda nak lari hari ini?", "Semanggi 🍀 rindukan anda.. kembali dan kumpul lagi!", "Ganjaran harian menanti anda, begitu juga belon Hari Raya 🎈!"),
+            arrayOf("Kami rindu anda! 🐑 Biri-biri masih dalam pelarian dan perlukan bantuan anda.", "Lupa pada biri-biri? Kembali dan teruskan lari daripada Pak Mat Sembelih! 🏃")
+        ),
+        "fa" to arrayOf(
+            arrayOf("گوسفند منتظر توست! 🐑 جایزهٔ روزانه‌ات در خطر است!", "قصاب رحیم سراغ تو را می‌گیرد.. پیش از عید بیا و فرار کن! 🔪", "چالش امروز عید آماده است.. جایزه را از دست نده! 🎁"),
+            arrayOf("قصاب رحیم هنوز دنبالت است! 😅 امروز چند متر فرار می‌کنی؟", "شبدرها 🍀 دلتنگ تو شده‌اند.. برگرد و بیشتر جمع کن!", "جایزه‌های روزانه‌ات منتظرند، با یک بادکنک عید 🎈!"),
+            arrayOf("دلمان برایت تنگ شده! 🐑 گوسفند هنوز فراری است و به کمکت نیاز دارد.", "گوسفند را فراموش کردی؟ برگرد و از دست قصاب رحیم فرار کن! 🏃")
+        ),
+        "ru" to arrayOf(
+            arrayOf("Барашек ждёт тебя! 🐑 Твоя ежедневная награда под угрозой!", "Мясник Рахим спрашивает о тебе.. беги, пока не наступил праздник! 🔪", "Праздничное задание на сегодня готово.. не упусти награду! 🎁"),
+            arrayOf("Мясник Рахим всё ещё гонится за тобой! 😅 Сколько метров пробежишь сегодня?", "Клевер 🍀 скучает по тебе.. вернись и собери ещё!", "Ежедневные награды ждут тебя, и праздничный шарик 🎈 тоже!"),
+            arrayOf("Мы скучаем! 🐑 Барашек всё ещё в бегах и нуждается в твоей помощи.", "Забыл про барашка? Вернись и продолжай убегать от мясника Рахима! 🏃")
         )
     )
 
     fun lang(c: Context): String {
         val l = prefs(c).getString(K_LANG, null) ?: java.util.Locale.getDefault().language
-        return if (TEXTS.containsKey(l)) l else if (l == "ms") "id" else "en"
+        return if (TEXTS.containsKey(l)) l else "en"
     }
     fun setLang(c: Context, l: String) { prefs(c).edit().putString(K_LANG, l).apply() }
 
