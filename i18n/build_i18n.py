@@ -4,9 +4,9 @@ import json, re, os
 H = os.path.dirname(os.path.abspath(__file__))
 IDX = os.path.join(H, '..', 'app', 'src', 'main', 'assets', 'index.html')
 d = json.load(open(os.path.join(H, 'strings.json'), encoding='utf-8'))
-data = {lg: {k: v[lg] for k, v in d.items() if lg in v and v[lg] != k} for lg in ('en', 'id', 'tr', 'fr', 'ur', 'bn')}
+data = {lg: {k: v[lg] for k, v in d.items() if lg in v and v[lg] != k} for lg in ('en', 'id', 'tr', 'fr', 'ur', 'bn', 'ms', 'fa', 'ru')}
 ENGINE = r'''
-var LANG = (function () { var l = ''; try { l = localStorage.getItem('se_lang') || ''; } catch (e) {} if (!/^(ar|en|id|tr|fr|ur|bn)$/.test(l)) { var n = ((navigator.languages && navigator.languages[0]) || navigator.language || 'en').toLowerCase().slice(0, 2); l = /^(ar|en|id|tr|fr|ur|bn)$/.test(n) ? n : (n === 'ms' ? 'id' : 'en'); } return l; })();
+var LANG = (function () { var l = ''; try { l = localStorage.getItem('se_lang') || ''; } catch (e) {} if (!/^(ar|en|id|tr|fr|ur|bn|ms|fa|ru)$/.test(l)) { var n = ((navigator.languages && navigator.languages[0]) || navigator.language || 'en').toLowerCase().slice(0, 2); l = /^(ar|en|id|tr|fr|ur|bn|ms|fa|ru)$/.test(n) ? n : 'en'; } return l; })();
 var I18N = %s;
 var _D = I18N[LANG] || {};
 function _t(s) { if (LANG === 'ar') return s; var v = _D[s]; if (v !== undefined) return v; var m = /^(\s*)([\s\S]*?)(\s*)$/.exec(s); if (m[1] || m[3]) { v = _D[m[2]]; if (v !== undefined) return m[1] + v + m[3]; } return s; }
@@ -18,7 +18,7 @@ function _applyDom() {
   document.querySelectorAll('[aria-label],[alt],[title]').forEach(function (el) { ['aria-label', 'alt', 'title'].forEach(function (a) { var x = el.getAttribute(a); if (x && _D[x] !== undefined) el.setAttribute(a, _D[x]); }); });
   document.title = _t(document.title);
 }
-if (LANG !== 'ar') { document.documentElement.lang = LANG; document.documentElement.dir = LANG === 'ur' ? 'rtl' : 'ltr'; _applyDom(); }
+if (LANG !== 'ar') { document.documentElement.lang = LANG; document.documentElement.dir = (LANG === 'ur' || LANG === 'fa') ? 'rtl' : 'ltr'; _applyDom(); }
 try { if (window.AndroidBridge && AndroidBridge.setLang) AndroidBridge.setLang(LANG); } catch (e) {}
 ''' % json.dumps(data, ensure_ascii=False, separators=(',', ':'))
 block = '/*I18N-BEGIN*/' + ENGINE + '/*I18N-END*/'
