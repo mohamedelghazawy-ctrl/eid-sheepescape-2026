@@ -47,7 +47,7 @@ SheepEscape/
 - نافذة تحديث داخل اللعبة عبر Google Play (In-App Updates).
 - المكافأة اليومية ×10 مع بالونة من اليوم الثالث، وزينة معلّقة على جانبي الطريق.
 
-## الترجمة (i18n) — اللغات: العربية، English، Bahasa Indonesia، Türkçe، Français، اردو، বাংলা
+## الترجمة (i18n) — اللغات: العربية، English، Bahasa Indonesia، Türkçe، Français، اردو، বাংলা، Bahasa Melayu، فارسی، Русский
 - كل نص عربي في الكود يُلَفّ تلقائياً بـ `_t()` / `_tt()`، والقاموس في `i18n/strings.json` (مفتاح = النص العربي).
 - لإضافة/تعديل ترجمة: عدّل `i18n/strings.json` ثم شغّل `i18n/rebuild.sh`.
 - النص العربي الجديد في الكود يُلَفّ تلقائياً عند تشغيل `rebuild.sh`؛ أضف له مدخلاً في `strings.json`.
