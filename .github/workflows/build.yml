@@ -33,7 +33,7 @@ jobs:
           gradle-version: '9.1.0'
 
       - name: Build debug APK (يُثبَّت مباشرة للتجربة)
-        run: gradle :app:assembleDebug --stacktrace
+        run: gradle :app:assembleDebug
 
       - name: Decode keystore (إن وُجدت الأسرار)
         if: env.KEYSTORE_BASE64 != ''
@@ -42,7 +42,7 @@ jobs:
           echo "KEYSTORE_FILE=$RUNNER_TEMP/release.keystore" >> "$GITHUB_ENV"
 
       - name: Build release APK + AAB (غير موقّع إن لم توجد الأسرار)
-        run: gradle :app:assembleRelease :app:bundleRelease --stacktrace
+        run: gradle :app:assembleRelease :app:bundleRelease
 
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
