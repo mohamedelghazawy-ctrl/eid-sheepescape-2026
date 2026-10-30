@@ -34,23 +34,28 @@ class Ads(private val act: Activity, private val web: WebView) {
 
     /** موافقة المستخدم (UMP) ثم تهيئة SDK ثم تحميل أول إعلان */
     fun init() {
-        val ci = UserMessagingPlatform.getConsentInformation(act)
-        ci.requestConsentInfoUpdate(act, ConsentRequestParameters.Builder().build(), {
-            UserMessagingPlatform.loadAndShowConsentFormIfRequired(act) { startSdk(ci) }
-        }, { startSdk(ci) })
-        startSdk(ci)   // إن كانت الموافقة محفوظة مسبقاً
+        // تأخير بسيط بعد إقلاع اللعبة، وأي خطأ في الإعلانات لا يُسقط التطبيق
+        ui.postDelayed({
+            try {
+                val ci = UserMessagingPlatform.getConsentInformation(act)
+                ci.requestConsentInfoUpdate(act, ConsentRequestParameters.Builder().build(), {
+                    try { UserMessagingPlatform.loadAndShowConsentFormIfRequired(act) { startSdk(ci) } } catch (_: Throwable) { startSdk(ci) }
+                }, { startSdk(ci) })
+                startSdk(ci)   // إن كانت الموافقة محفوظة مسبقاً
+            } catch (_: Throwable) { }
+        }, 1500)
     }
 
     private fun startSdk(ci: ConsentInformation) {
         if (started || !ci.canRequestAds()) return
         started = true
-        MobileAds.initialize(act) { act.runOnUiThread { load() } }
+        try { MobileAds.initialize(act) { act.runOnUiThread { load() } } } catch (_: Throwable) { started = false }
     }
 
     private fun load() {
         if (!started || ad != null || loading) return
         loading = true
-        RewardedAd.load(act, unit(), AdRequest.Builder().build(), object : RewardedAdLoadCallback() {
+        try { RewardedAd.load(act, unit(), AdRequest.Builder().build(), object : RewardedAdLoadCallback() {
             override fun onAdLoaded(a: RewardedAd) {
                 ad = a; loading = false
                 if (pendingShow) { pendingShow = false; show() }
@@ -59,7 +64,7 @@ class Ads(private val act: Activity, private val web: WebView) {
                 ad = null; loading = false
                 if (pendingShow) { pendingShow = false; report(false, "unavail") }
             }
-        })
+        }) } catch (_: Throwable) { loading = false }
     }
 
     fun show() {
@@ -76,7 +81,7 @@ class Ads(private val act: Activity, private val web: WebView) {
                 override fun onAdDismissedFullScreenContent() { ad = null; report(rewarded, "closed"); load() }
                 override fun onAdFailedToShowFullScreenContent(e: AdError) { ad = null; report(false, "unavail"); load() }
             }
-            a.show(act) { rewarded = true }
+            try { a.show(act) { rewarded = true } } catch (_: Throwable) { ad = null; report(false, "unavail") }
         }
     }
 
