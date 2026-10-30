@@ -40,6 +40,7 @@ import androidx.webkit.WebViewAssetLoader
 class MainActivity : AppCompatActivity() {
 
     private lateinit var webView: WebView
+    private lateinit var ads: Ads
     private var updateMgr: AppUpdateManager? = null
     private var updateChecked = false
     private val notifPerm = registerForActivityResult(ActivityResultContracts.RequestPermission()) { }
@@ -66,6 +67,8 @@ class MainActivity : AppCompatActivity() {
             isHorizontalScrollBarEnabled = false
         }
         setContentView(webView)
+        ads = Ads(this, webView)
+        ads.init()
 
         // تجنب تداخل شريط الحالة/التنقل مع اللعبة
         ViewCompat.setOnApplyWindowInsetsListener(webView) { v, insets ->
@@ -220,6 +223,9 @@ class MainActivity : AppCompatActivity() {
                 window.attributes = lp
             }
         }
+
+        @JavascriptInterface
+        fun showRewardedAd() { ads.show() }
 
         @JavascriptInterface
         fun setLang(l: String) { Reminders.setLang(this@MainActivity, l) }
