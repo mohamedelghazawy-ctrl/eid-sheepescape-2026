@@ -41,6 +41,8 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var webView: WebView
     private lateinit var ads: Ads
+    private lateinit var games: Games
+    private val lbLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { }
     private var updateMgr: AppUpdateManager? = null
     private var updateChecked = false
     private val notifPerm = registerForActivityResult(ActivityResultContracts.RequestPermission()) { }
@@ -69,6 +71,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(webView)
         ads = Ads(this, webView)
         ads.init()
+        games = Games(this, webView, lbLauncher)
+        games.init()
 
         // تجنب تداخل شريط الحالة/التنقل مع اللعبة
         ViewCompat.setOnApplyWindowInsetsListener(webView) { v, insets ->
@@ -226,6 +230,12 @@ class MainActivity : AppCompatActivity() {
 
         @JavascriptInterface
         fun showRewardedAd() { ads.show() }
+
+        @JavascriptInterface
+        fun submitScore(diff: String, score: Double) { games.submit(diff, score.toLong()) }
+
+        @JavascriptInterface
+        fun showLeaderboard(diff: String) { runOnUiThread { games.show(diff.ifEmpty { null }) } }
 
         @JavascriptInterface
         fun setLang(l: String) { Reminders.setLang(this@MainActivity, l) }
