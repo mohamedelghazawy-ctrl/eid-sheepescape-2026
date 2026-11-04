@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- معرّف مشروع خدمات ألعاب Google Play (Play Console ← إعداد خدمات ألعاب Play) -->
+    <string name="game_services_project_id" translatable="false">3687846174</string>
+</resources>
