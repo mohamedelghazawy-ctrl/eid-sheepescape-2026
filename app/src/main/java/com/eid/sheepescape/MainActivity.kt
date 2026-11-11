@@ -234,6 +234,40 @@ class MainActivity : AppCompatActivity() {
         @JavascriptInterface
         fun submitScore(diff: String, score: Double) { games.submit(diff, score.toLong()) }
 
+        /** مشاركة صورة النتيجة (JPEG base64) مع النص، عبر ملف مؤقت في الكاش دون حفظ في المعرض. */
+        @JavascriptInterface
+        fun shareImage(b64: String, text: String) {
+            try {
+                val dir = java.io.File(cacheDir, "share").apply { mkdirs() }
+                dir.listFiles()?.forEach { it.delete() }
+                val f = java.io.File(dir, "score_" + System.currentTimeMillis() + ".jpg")
+                f.writeBytes(android.util.Base64.decode(b64, android.util.Base64.DEFAULT))
+                val uri = androidx.core.content.FileProvider.getUriForFile(this@MainActivity, "$packageName.fileprovider", f)
+                runOnUiThread {
+                    try {
+                        val i = Intent(Intent.ACTION_SEND).apply {
+                            type = "image/jpeg"
+                            putExtra(Intent.EXTRA_STREAM, uri)
+                            putExtra(Intent.EXTRA_TEXT, text)
+                            clipData = android.content.ClipData.newRawUri("", uri)
+                            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                        }
+                        startActivity(Intent.createChooser(i, null))
+                    } catch (_: Throwable) { shareText(text) }
+                }
+            } catch (_: Throwable) { shareText(text) }
+        }
+
+        @JavascriptInterface
+        fun shareText(text: String) {
+            runOnUiThread {
+                try {
+                    val i = Intent(Intent.ACTION_SEND).apply { type = "text/plain"; putExtra(Intent.EXTRA_TEXT, text) }
+                    startActivity(Intent.createChooser(i, null))
+                } catch (_: Throwable) { }
+            }
+        }
+
         @JavascriptInterface
         fun showLeaderboard(diff: String) { runOnUiThread { games.show(diff.ifEmpty { null }) } }
 
